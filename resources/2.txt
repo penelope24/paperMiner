@@ -1,0 +1,1247 @@
+<!DOCTYPE html>
+<html lang="en"     class="pb-page"  data-request-id="d9f655ca-5a64-480d-95ac-3f8cce8a0bbd"  
+><head data-pb-dropzone="head"><meta name="pbContext" content=";taxonomy:taxonomy:conference-collections;wgroup:string:ACM Publication Websites;groupTopic:topic:acm-pubtype&gt;proceeding;ctype:string:Book Content;article:article:doi\:10.1145/2568225.2568279;issue:issue:doi\:10.1145/2568225;page:string:Article/Chapter View;subPage:string:Abstract;csubtype:string:Conference Proceedings;website:website:dl-site;topic:topic:conference-collections&gt;icse;journal:journal:acmconferences;pageGroup:string:Publication Pages"/>
+<link rel="schema.DC" href="http://purl.org/DC/elements/1.0/"></link><meta name="dc.Format" content="text/HTML"></meta><meta name="dc.Language" content="EN"></meta><meta name="dc.Coverage" content="world"></meta><!-- ${citation_fulltext_world_readable:10.1145/2568225.2568279} -->
+
+
+
+
+
+
+<title>Does latitude hurt while longitude kills? geographical and temporal separation in a large scale software development project | Proceedings of the 36th International Conference on Software Engineering</title>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta charset="UTF-8">
+
+
+
+
+
+
+
+
+
+<meta name="robots" content="noarchive"/>
+<meta name="pb-robots-disabled">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+        <meta property="og:url" content="https://dl.acm.org/doi/abs/10.1145/2568225.2568279"/>
+    
+
+
+
+
+
+
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+    <!--link(rel='stylesheet', href='https://fonts.googleapis.com/css?family=Merriweather+Sans:300,400,700,800|Merriweather:300,400,700,900')--><link rel="stylesheet" href="/products/acm/releasedAssets/css/build-392db7f78c161cda0dd4.css"/><link rel="stylesheet" href="/products/acm/releasedAssets/css/print-392db7f78c161cda0dd4.css" media="print"/>
+
+
+
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<script defer src="https://scholar.google.com/scholar_js/casa.js" async></script>
+<script type="text/javascript">
+    window.heap=window.heap||[],heap.load=function(e,t){window.heap.appid=e,window.heap.config=t=t||{};var r=t.forceSSL||"https:"===document.location.protocol,a=document.createElement("script");a.type="text/javascript",a.async=!0,a.src=(r?"https:":"http:")+"//cdn.heapanalytics.com/js/heap-"+e+".js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(a,n);for(var o=function(e){return function(){heap.push([e].concat(Array.prototype.slice.call(arguments,0)))}},p=["addEventProperties","addUserProperties","clearEventProperties","identify","resetIdentity","removeEventProperty","setEventProperties","track","unsetEventProperty"],c=0;c<p.length;c++)heap[p[c]]=o(p[c])};
+      heap.load("1083010732");
+</script>
+<link rel="apple-touch-icon" sizes="180x180" href="/pb-assets/head-metadata/apple-touch-icon-1574252172393.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/pb-assets/head-metadata/favicon-32x32-1574252172003.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/pb-assets/head-metadata/favicon-16x16-1574252172937.png">
+<link rel="manifest" href="/pb-assets/head-metadata/site-1574252171130.webmanifest" crossorigin="use-credentials">
+<link rel="mask-icon" href="/pb-assets/head-metadata/safari-pinned-tab-1574252171193.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#00a300">
+<meta name="theme-color" content="#ffffff">
+
+    <!-- Google Tag Manager -->
+    
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-NFGCMX');</script>
+    <!-- End Google Tag Manager -->
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+    
+        
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+</head>
+<body class="pb-ui">
+
+
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NFGCMX" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+
+    if(false) {
+        document.getElementById("skipNavigationLink").onclick =function skipElement () {
+            var element = document.getElementById('');
+            if(element == null || element == undefined) {
+                element = document.getElementsByClassName('').item(0);
+            }
+            element.setAttribute('tabindex','0');
+            element.focus();
+
+        }
+
+    }
+
+</script>
+
+
+
+
+
+    <div id="pb-page-content" data-ng-non-bindable>
+        <div data-pb-dropzone="main" data-pb-dropzone-name="Main">
+
+
+
+
+        
+        
+
+
+
+
+
+
+
+
+
+        <header data-widget-def="ux3-layout-widget" data-widget-id="88f434fd-b4d9-4f0e-b7b6-cde0fadcc9ef" class="header base icse">
+        
+
+
+
+        
+        <div class="header__fixed-items fixed fixed-element">
+
+
+
+
+
+
+
+
+
+        <div data-widget-def="ux3-layout-widget" data-widget-id="c844bab8-b1d5-4df4-8bea-71f6156459e4" class="container header--first-row">
+        
+
+
+
+        
+        <div class="pull-left">
+
+
+
+
+
+
+
+
+
+        <div data-widget-def="ux3-general-image" data-widget-id="83eada61-9003-4cb3-99a8-a38fa7692761" class="header__logo1">
+        
+
+
+
+        
+        <a href="/" title="ACM Digital Library home"><img id="" alt="ACM Digital Library home" src="/specs/products/acm/releasedAssets/images/acm-dl-logo-white.png"/></a>
+
+        </div>
+    
+
+
+
+
+
+
+
+
+
+
+        <div data-widget-def="ux3-general-image" data-widget-id="5517ee17-e847-46ff-b42e-c5a6754e032d" class="header__logo2">
+        
+
+
+
+        
+        <a href="https://www.acm.org" title="ACM home"><img id="" alt="ACM home" src="specs/products/acm/releasedAssets/images/acm-logo-1.png"/></a>
+
+        </div>
+    
+</div><div class="pull-right">
+
+
+
+
+
+
+
+
+
+        <div data-widget-def="ux3-layout-widget" data-widget-id="ab4ba9a1-6e57-4b90-b9c2-fc7914d9a3a1" class="header__quick-menu text-onDark">
+        
+
+
+
+        
+        <ul class="rlist--inline"><li class="advanced-search-link hidden-lg hidden-md hidden-sm">
+
+
+
+        
+        <a href="/search/advanced" >Advanced Search</a>
+</li><li class="show-on-mobile">
+
+
+
+        
+        <a href="/browse" title="browse by title or publisher">Browse</a>
+</li><li class="show-on-mobile">
+
+
+
+        
+        <a href="/about" title="About the ACM Digital Library">About</a>
+</li><li class="login-list">
+
+
+
+        
+        
+
+
+
+
+    
+
+
+
+
+
+
+
+
+        
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+<div class="dropBlock loginBar login-open">
+    <ul class="rlist--inline">
+        <li class="login-link">
+            <a href="/action/showLogin?redirectUri=%2Fdoi%2F10.1145%2F2568225.2568279">
+                Sign in
+            </a>
+        </li>
+        <li class="register-link">
+            
+                    <a href="https://accounts.acm.org?redirectUri=%2Fdoi%2F10.1145%2F2568225.2568279" class="btn" title="Register">
+                        Register
+                    </a>
+                
+        </li>
+    </ul>
+</div>
+
+
+
+    
+
+</li></ul>
+
+        </div>
+    
+</div>
+
+        </div>
+    
+
+
+
+
+
+
+
+
+
+
+        <div data-widget-def="menuWidget" data-widget-id="13da1316-80a7-4370-a291-8968cd9cb35e" class="container header--second-row">
+        
+
+
+
+        
+        <div class="responsive-menu-container clearfix"><div class="left-section pull-left"></div><div class="menu-section"><div class="main-nav responsive-menu-nav"><a href="#global-menu" data-target="global-menu" data-toggle="nav" title="menu drawer"><span class="drawer__icons-box"><span class="drawer__icons-controls"></span></span></a><nav role="navigation" id="global-menu" data-ctrl-res="screen-sm" class="drawer__nav container gutterless hidden-sm hidden-xs"><ul id="menubar" role="menubar" class="menubar rlist--inline"><li class="hidden-lg hidden-md"><div data-toggle="transplant" data-target-class="hidden-xs hidden-sm" data-target=".header--second-row .quick-search--form" data-direction="from" data-transplant="self" class="quick-search-mobile"></div></li><li role="menuitem" aria-label="Advanced Search" id="menu-item-global-menu-0" class="menu-item mobile-menu-item"><a href="/search/advanced"><span>Advanced Search</span></a></li><li role="menuitem" aria-label="Journals" id="menu-item-global-menu-1" class="menu-item"><a href="/journals"><span>Journals</span></a></li><li role="menuitem" aria-label="Magazines" id="menu-item-global-menu-2" class="menu-item"><a href="/magazines"><span>Magazines</span></a></li><li role="menuitem" aria-label="Proceedings" id="menu-item-global-menu-3" class="menu-item"><a href="/proceedings"><span>Proceedings</span></a></li><li role="menuitem" aria-label="Books" id="menu-item-global-menu-4" class="menu-item"><a href="/acmbooks"><span>Books</span></a></li><li role="menuitem" aria-label="SIGs" id="menu-item-global-menu-5" class="menu-item"><a href="/sigs"><span>SIGs</span></a></li><li role="menuitem" aria-label="Conferences" id="menu-item-global-menu-6" class="menu-item"><a href="/conferences"><span>Conferences</span></a></li><li role="menuitem" aria-label="People" id="menu-item-global-menu-7" class="menu-item"><a href="/people"><span>People</span></a></li><li class="hidden-lg hidden-md"><div data-toggle="transplant" data-target-class="hidden-xs hidden-sm" data-target=".header__quick-menu .show-on-mobile" data-direction="from" data-transplant="self"></div></li><li role="menuitem" aria-haspopup="true" aria-label="More" class="dropdown-more hidden dropdown menu-parent"><a href="#" title="More" data-toggle="dropdown" class="dropdown__toggle"><span>More</span><i aria-hidden="true" class="icon-section_arrow_d pull-right hidden-sm hidden-xs"></i></a><ul aria-labelledby="main0-1" aria-hidden="true" role="menu" class="rlist dropdown__menu"></ul></li><li class="menubar__extra-mob-links"></li></ul></nav></div></div><div class="right-section pull-right">
+
+
+
+        
+        <div class="quickSearchFormContainer"><div class="quick-search"><div class="clearfix quick-search__clearfix"><form action="/action/doSearch" name="defaultQuickSearch" method="get" title="Quick Search" class="quick-search--form"><div class="quick-search--input"><div class="input-group option-0"><label for="AllFieldf73847c0-d936-48ec-9bf9-139b3828507f" class="sr-only">Search ACM Digital Library</label><input id="AllFieldf73847c0-d936-48ec-9bf9-139b3828507f" type="search" name="AllField" placeholder="Search ACM Digital Library" data-auto-complete-max-words="7" data-auto-complete-max-chars="32" data-contributors-conf="3" data-topics-conf="3" data-publication-titles-conf="3" data-history-items-conf="3" data-group-titles-conf="3" value="" class="autocomplete quick-search__input"/></div></div><div class="quick-search--button"><button type="submit" title="Search" aria-label="Search" class="btn quick-search__button icon-Icon_Search"><span class="sr-only">Search</span><span>Search</span></button></div></form></div>
+
+
+
+        
+        <a class="quick-search__advancedHeader" title="link to Advanced Search form" href="/search/advanced">Advanced Search</a>
+</div></div>
+</div></div><div class="header__dropzone"></div>
+
+        </div>
+    
+
+
+
+
+        
+        <span style="display: none;">10.1145/2568225.2568279</span><span style="display: none;">acmconferences</span><span style="display: none;">Article/Chapter View</span><span style="display: none;">Abstract</span><span style="display: none;">Publication Pages</span><span style="display: none;">icse</span><span style="display: none;">Conference Proceedings</span><div class="sub-nav fixed-element"><a href="#" data-db-target-for="sub-nav__items" data-more="false" data-lines="1" style="text-transform: uppercase;" class="sub-nav__toggle hidden-lg truncate-text-css">icse</a><div class="sub-nav__container"><div class="container"><div data-ctrl-res="screen-md" class="responsive-menu-container"><div class="left-section pull-left"></div><div class="menu-section"><div style="display: block" class="responsive-menu-nav"><nav id="sub-nav__items" data-db-target-of="sub-nav__items" class="sub-nav__holder drawer__nav"><ul role="menu" class="rlist--inline menubar"><li role="menuitem"><a href="/conference/icse" class="sub-nav__item">Conference</a></li><li role="menuitem"><a href="/conference/icse/proceedings" class="sub-nav__item">Proceedings</a></li><li role="menuitem"><a href="/conference/icse/upcoming" class="sub-nav__item">Upcoming Events</a></li><li role="menuitem"><a href="/conference/icse/authors" class="sub-nav__item">Authors</a></li><li role="menuitem"><a href="/conference/icse/affiliations" class="sub-nav__item">Affiliations</a></li><li role="menuitem"><a href="/conference/icse/award-winners" class="sub-nav__item">Award Winners</a></li><li role="menuitem" aria-haspopup="true" aria-label="More" class="dropdown-more hidden dropdown menu-parent"><a href="#" title="More" data-toggle="dropdown" class="dropdown__toggle hidden-md hidden-sm hidden-xs"><span>More</span><i aria-hidden="true" class="icon-section_arrow_d"></i></a><ul aria-labelledby="main0-1" aria-hidden="true" role="menu" class="rlist dropdown__menu visible-md visible-sm visible-xs"></ul></li></ul></nav></div></div><div class="right-section hidden-md hidden-sm hidden-xs"></div></div></div></div><div class="hidden-xs hidden-sm"><div class="progress-bar--wrapper"><div style="width: 0.116818%;" class="progress-bar"></div></div></div></div>
+</div><div></div><div class="banner conference-landing"></div><div class="header-breadcrumb">
+
+
+
+
+
+
+
+
+
+        <div data-widget-def="ux3-layout-widget" data-widget-id="f5f275c5-a862-48bf-8119-8528d04615da" class="container">
+        
+
+
+
+        
+        <div>
+
+
+
+        
+        
+
+
+
+        
+        <nav class="article__breadcrumbs separator"><a href="https://dl.acm.org/" class="article__tocHeading">Home</a><a href="/conferences" class="article__tocHeading">Conferences</a><a href="/conference/icse" class="article__tocHeading">ICSE</a><a href="/conference/icse/proceedings" class="article__tocHeading">Proceedings</a><a href="/doi/proceedings/10.1145/2568225" class="article__tocHeading">ICSE 2014</a><a href="/doi/10.1145/2568225.2568279" class="article__tocHeading">Does latitude hurt while longitude kills? geographical and temporal separation in a large scale software development project</a></nav>
+
+</div>
+
+        </div>
+    
+</div>
+
+        </header>
+    
+
+
+
+
+
+
+        
+        <main class="content icse loi-page no-margin">
+
+
+
+
+
+
+
+
+
+        <div data-widget-def="UX3combinedRecommendationsWidget" data-widget-id="bf2b14e9-d9dc-4518-8bb0-d9b157f47c7e" class="recommendations" data-show-id="sec-ref">
+        
+
+
+
+        
+        <div data-ajaxurl="/pb/widgets/lazyLoadRecommended?widgetId=bf2b14e9-d9dc-4518-8bb0-d9b157f47c7e&amp;doi=10.1145%2F2568225.2568279&amp;pbContext=%3Btaxonomy%3Ataxonomy%3Aconference-collections%3Bwgroup%3Astring%3AACM+Publication+Websites%3BgroupTopic%3Atopic%3Aacm-pubtype%26gt%3Bproceeding%3Bctype%3Astring%3ABook+Content%3Barticle%3Aarticle%3Adoi%5C%3A10.1145%2F2568225.2568279%3Bissue%3Aissue%3Adoi%5C%3A10.1145%2F2568225%3Bpage%3Astring%3AArticle%2FChapter+View%3BsubPage%3Astring%3AAbstract%3Bcsubtype%3Astring%3AConference+Proceedings%3Bwebsite%3Awebsite%3Adl-site%3Btopic%3Atopic%3Aconference-collections%26gt%3Bicse%3Bjournal%3Ajournal%3Aacmconferences%3BpageGroup%3Astring%3APublication+Pages" class="recommended--lazyLoad"></div>
+
+        </div>
+    
+
+
+
+
+
+
+
+
+
+
+        <div data-widget-def="ux3-publicationContent-widget" data-widget-id="f69d88a8-b404-4aae-83a9-9acea4426d78" class="container">
+        
+
+
+
+        
+        <article data-enable-mathjax="true" data-citationInfo="/action/acmCitationInfo?widgetId=f69d88a8-b404-4aae-83a9-9acea4426d78&ajax=true&doi=10.1145%2F2568225.2568279&pbContext=%3Btaxonomy%3Ataxonomy%3Aconference-collections%3Bwgroup%3Astring%3AACM+Publication+Websites%3BgroupTopic%3Atopic%3Aacm-pubtype%26gt%3Bproceeding%3Bctype%3Astring%3ABook+Content%3Barticle%3Aarticle%3Adoi%5C%3A10.1145%2F2568225.2568279%3Bissue%3Aissue%3Adoi%5C%3A10.1145%2F2568225%3Bpage%3Astring%3AArticle%2FChapter+View%3BsubPage%3Astring%3AAbstract%3Bcsubtype%3Astring%3AConference+Proceedings%3Bwebsite%3Awebsite%3Adl-site%3Btopic%3Atopic%3Aconference-collections%26gt%3Bicse%3Bjournal%3Ajournal%3Aacmconferences%3BpageGroup%3Astring%3APublication+Pages" data-proceedingInfo="/action/proceedingArticleMeta?widgetId=f69d88a8-b404-4aae-83a9-9acea4426d78&ajax=true&doi=10.1145%2F2568225.2568279&pbContext=%3Btaxonomy%3Ataxonomy%3Aconference-collections%3Bwgroup%3Astring%3AACM+Publication+Websites%3BgroupTopic%3Atopic%3Aacm-pubtype%26gt%3Bproceeding%3Bctype%3Astring%3ABook+Content%3Barticle%3Aarticle%3Adoi%5C%3A10.1145%2F2568225.2568279%3Bissue%3Aissue%3Adoi%5C%3A10.1145%2F2568225%3Bpage%3Astring%3AArticle%2FChapter+View%3BsubPage%3Astring%3AAbstract%3Bcsubtype%3Astring%3AConference+Proceedings%3Bwebsite%3Awebsite%3Adl-site%3Btopic%3Atopic%3Aconference-collections%26gt%3Bicse%3Bjournal%3Ajournal%3Aacmconferences%3BpageGroup%3Astring%3APublication+Pages"><div class="row"><div class="col-md-2 col-sm-3"></div><div class="col-md-8 col-sm-7"><div class="citation"><div class="issue-item__citation"><span class="issue-heading">research-article </span><span class="article__access"><span></span></span></div><div class="border-bottom clearfix"><h1 class="citation__title">Does latitude hurt while longitude kills? geographical and temporal separation in a large scale software development project</h1>
+
+
+
+        
+        <!-- Go to www.addthis.com/dashboard to customize your tools --><script type="text/javascript" async="async" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=xa-4faab26f2cff13a7"></script><div class="share__block share__inline-links"><div class="pb-dropzone" data-pb-dropzone="shareBlock" title="shareBlock"></div><span class="sr-only">Share on</span><div class="rlist--inline addthis addthis_toolbox addthis_default_style addthis_32x32_style"><a role="link" class="addthis_button_twitter"><i aria-hidden="true" class="at-icon-wrapper icon-Icon_Twitter"></i></a><a role="link" class="addthis_button_linkedin"><i aria-hidden="true" class="at-icon-wrapper icon-linkedin"></i></a><a role="link" class="addthis_button_reddit"><i aria-hidden="true" class="at-icon-wrapper icon-riddit-filled"></i></a><a role="link" class="addthis_button_facebook"><i aria-hidden="true" class="at-icon-wrapper icon-Icon_Facebook"></i></a><a role="link" class="addthis_button_email"><i aria-hidden="true" class="at-icon-wrapper icon-Icon_mail"></i></a><div class="pb-dropzone" data-pb-dropzone="share-additional-links" title="share-additional-links"></div></div></div>
+</div><div class="border-bottom clearfix"> <div id="sb-1"> <ul data-lines="2" ariaa-label="authors" data-position="beforeLast" class="rlist--inline loa truncate-list"> <li class="label"><b>Authors: </b></li> <li class="loa__item"><a id="arnd_25504618027298378_Ctrl" href="javascript:void(0);" aria-controls="arnd_25504618027298378" aria-haspopup="true" class="author-name" title="Patrick Wagstrom"><span class="loa__author-info"> <div class="author-data"><span class="loa__author-name"><span><img class="author-picture" src="/pb-assets/icons/DOs/default-profile-1543932446943.svg" width="24" height="24" alt="" aria-hidden="true"/>Patrick Wagstrom</span></span></div><span class="loa_author_inst"> <p data-pill-inst="arnd_25504618027298378" data-doi="10.1145/contrib-81318496756">IBM Research, USA</p></span></span></a><div id="arnd_25504618027298378" aria-labelledby="arnd_25504618027298378_Ctrl" class="author-info"> <div class="author-info__header" data-pill="d56494733e94"></div> <div class="author-info__body"> <p data-pill-inst="d56494733e94" data-doi="10.1145/contrib-81318496756">IBM Research, USA</p><a href="/profile/81318496756" class="btn blue stretched">View Profile</a></div> </div><span>, </span></li> <li class="loa__item"><a id="arnd_25504618027746245_Ctrl" href="javascript:void(0);" aria-controls="arnd_25504618027746245" aria-haspopup="true" class="author-name" title="Subhajit Datta"><span class="loa__author-info"> <div class="author-data"><span class="loa__author-name"><span><img class="author-picture" src="/pb-assets/icons/DOs/default-profile-1543932446943.svg" width="24" height="24" alt="" aria-hidden="true"/>Subhajit Datta</span></span></div><span class="loa_author_inst"> <p data-pill-inst="arnd_25504618027746245" data-doi="10.1145/contrib-81482643819">Singapore University of Technology and Design, Singapore</p></span></span></a><div id="arnd_25504618027746245" aria-labelledby="arnd_25504618027746245_Ctrl" class="author-info"> <div class="author-info__header" data-pill="d56494733e108"></div> <div class="author-info__body"> <p data-pill-inst="d56494733e108" data-doi="10.1145/contrib-81482643819">Singapore University of Technology and Design, Singapore</p><a href="/profile/81482643819" class="btn blue stretched">View Profile</a></div> </div> </li> <li><a href="#pill-authors__contentcon" data-slide-target="#pill-information" data-full-screen="false" data-ctrl-res="screen-xlg" data-tab="pill-authors__content" data-label="<i class='icon-Icon_Information'&gt;</i&gt; Information &amp; Authors" class="loa__link w-slide__btn tab-link slide-active">Authors Info &amp; Affiliations </a></li> </ul> </div> </div> <div class="border-bottom clearfix"><div class="issue-item__detail"><a href="/doi/proceedings/10.1145/2568225" title="ICSE 2014: Proceedings of the 36th International Conference on Software Engineering"><span class="epub-section__title">ICSE 2014: Proceedings of the 36th International Conference on Software Engineering</span></a><span class="dot-separator"><span class="epub-section__date">May 2014  </span></span><span class="dot-separator"><span class="epub-section__pagerange">Pages   199–210</span></span><span class="dot-separator"><a href="https://doi.org/10.1145/2568225.2568279" class="issue-item__doi">https://doi.org/10.1145/2568225.2568279</a></span></div></div><div class="border-bottom clearfix"><span class="bold label">Published:</span><span class="CitationCoverDate">31 May 2014</span></div>
+
+
+
+        
+        
+<div class="border-bottom clearfix"><div class="issue-item__footer"><div class="issue-item__footer-info pull-left"><div tabindex="0" class="tooltip"><ul class="rlist--inline"><li><span class="citation"><i class="icon-quote"></i><span>11</span><span class="sr-only">citation</span></span></li><li><span class="metric"><i class="icon-metric"></i><span>453</span></span></li><span class="sr-only">Downloads</span></ul><div class="tooltip__body"><span class="arrow"></span><div class="left-bordered-title">Metrics</div><div class="citation">Total Citations<span class="bold">11</span></div><div class="metric">Total Downloads<span class="bold">453</span></div><div class="info">Last 12 Months<span class="bold">18</span></div><div class="info">Last 6 weeks<span class="bold">3</span></div></div></div></div><div class="issue-item__footer-links pull-right"><ul class="rlist--inline">
+
+
+
+        
+        <li role="presentation" class="article-tool"><a id="manageAlert__crtl" href="/action/addCitationAlert?doi=10.1145/2568225.2568279" role="menuitem" data-title="Get Citation Alerts" data-target="#manageAlert" class="btn--icon simple-tooltip__block--b"><i aria-hidden="true" class="icon-Icon_Alerts"></i><span class="visibility-hidden">Get Citation Alerts</span></a><div class="ux-modal-container"><div id="manageAlert" class="modal"><div class="modal__dialog"><div class="modal__dialog--success"><div class="modal__header"><button type="button" data-dismiss="modal" class="close"><i aria-hidden="true" class="icon-close_thin"></i></button><a id="id-hatemile-navigation-6073290063892647-7" name="id-hatemile-navigation-6073290063892647-7" data-headinganchorfor="id-hatemile-navigation-6073290063892647-6" class="heading-anchor"></a><h2 id="id-hatemile-navigation-6073290063892647-6">New Citation Alert added!</h2></div><div class="modal__body"><p>This alert has been successfully added and will be sent to:<span class="email"></span></p><p>You will be notified whenever a record that you have chosen has been cited.</p></div><div class="modal__footer"><p>To manage your alert preferences, click on the button below.</p><a href="/action/showPreferences?menuTab=Alerts" title="Manage my Alerts" id="id-hatemile-display-1019331959102511-5" class="btn blue big stretched manageAlert__btn"><span data-attributetitleof="id-hatemile-display-1019331959102511-5" class="force-read-before">Manage my Alerts</span></a></div></div><div class="modal__dialog--error"><div class="modal__header"><button type="button" data-dismiss="modal" class="close"><i aria-hidden="true" class="icon-close_thin"></i></button><a id="id-hatemile-navigation-6073290063892647-9" name="id-hatemile-navigation-6073290063892647-9" data-headinganchorfor="id-hatemile-navigation-6073290063892647-8" class="heading-anchor"></a><h2 id="id-hatemile-navigation-6073290063892647-8">New Citation Alert!</h2></div><div class="modal__body"><p>Please <a href="/action/showLogin?redirectUri=/doi/10.1145/2568225.2568279" title="Sign In" class="link">log in to your account</a></p></div></div></div></div></div></li>
+<li role="presentation" class="article-tool"><a href="javascript:void(0)" role="menuitem" data-title="Save to Binder" data-db-target-for="save-to-binder" data-link="/action/binderList?doi=10.1145/2568225.2568279" class="btn--icon simple-tooltip__block--b saveToBinders"><i aria-hidden="true" class="icon-add-folder"></i><span class="visibility-hidden">Save to Binder</span></a><div data-db-target-of="save-to-binder"><div class="saveToBinders-list"><input type="hidden" name="doiVal" value="10.1145/2568225.2568279"/><h5>Save to Binder</h5><div class="binder-list-alerts"></div><div class="saveToBinders-list__container"><ul class="rlist saveToBinders-list__items"><div class="loader"><img src="/specs/products/acm/releasedAssets/images/loader.gif"/></div></ul></div><div class="binder__create"><a data-action="show" href="/action/showMyBinders" title="Create a New Binder" class="show-binder-form toggle-binder-form"><i class="icon-plus-light"></i>Create a New Binder</a><div class="binder-create-form binder__create-mini-form"><div class="input-group input-group--gray-bg"><label>Name</label><div class="input-group__field-container--right-icon"><input type="text" placeholder="My new Binder" name="binderName" data-maxChar="256" class="binder-create-form__name charCount__text form-control"/><span class="input-group-addon input-group-addon--right"><span class="charLimit"></span></span></div></div><div><ul class="rlist--inline binder__create-btns-container"><li><button type="reset" value="Cancel" data-action="hide" class="toggle-binder-form btn btn--border-less btn transparent binder__create-cancel">Cancel</button></li><li class="pull-right"><button type="submit" value="Create Binder" disabled="disabled" data-append-newbinder-link="/action/createBinder" class="btn btn--no-margin blue big binder__create-submit binder-create-form__create"><i aria-hidden="true" class="icon-plus-light"></i>Create</button></li></ul></div></div></div></div></div></li><li role="presentation" class="article-tool"><a href="/" role="menuitem" data-title="Export Citation" data-toggle="modal" data-target="#exportCitation" class="btn--icon simple-tooltip__block--b"><i aria-hidden="true" class="icon-quote"></i><span class="visibility-hidden">Export Citation</span><input type="hidden" name="doiVal" value="10.1145/2568225.2568279"/></a></li><li class="publisher-site article-tool"><a href="#" class="btn blue"><span>Publisher Site</span><i aria-hidden="true" class="icon-export"></i></a></li></ul><ul class="rlist--inline right"><input type="hidden" id="formatsCount" value="2"/><li><a href="javascript:void(0);" data-slide-target="#pill-access" data-ctrl-res="screen-xlg" data-full-screen="false" data-label="&lt;i class=&quot;icon-get-access&quot;&gt;&lt;/i&gt;Get Access" title="Get Access" class="get-access w-slide__btn"><i class="icon-get-access"></i><span>Get Access</span></a></li></ul></div></div></div></div></div><div class="col-sm-2"></div></div><div class="row"><div class="col-md-2 col-sm-3 sidebar-section article-sidebar-section"><div class="article__sections"><div class="sections-box"><div><div class="sections-box__static-items"><div class="parent-item"><h5 class="parent-item__title"><a href="/doi/proceedings/10.1145/2568225" data-lines="2" data-title="ICSE 2014: Proceedings of the 36th International Conference on Software Engineering" class="simple-tooltip__inline--r truncate-text-css">ICSE 2014: Proceedings of the 36th International Conference on Software Engineering</a></h5><span href="/doi/proceedings/10.1145/2568225" data-lines="2" data-title="Does latitude hurt while longitude kills? geographical and temporal separation in a large scale software development project" class="parent-item__subtitle simple-tooltip__inline--r truncate-text-css">Does latitude hurt while longitude kills? geographical and temporal separation in a large scale software development project</span><div class="pageRange">Pages   199–210</div></div>
+
+
+
+        
+        <div class="content-navigation clearfix"><a href="/doi/10.1145/2568225.2568249" title="Previous item in TOC" class="content-navigation__btn--pre "><span><i class="icon-Arrow-Stroke"></i></span><span class="control">Previous</span><span class="type">Chapter</span></a><a href="/doi/10.1145/2568225.2568305" title="Next item in TOC" class="content-navigation__btn--next "><span class="control">Next</span><span class="type">Chapter</span><span><i class="icon-Arrow-Stroke"></i></span></a></div>
+</div><div class="sections-block scroll-to-target"></div></div><div class="logo"><img src="/specs/products/acm/releasedAssets/images/footer-logo1.png" alt="ACM Digital Library" title="ACM Digital Library"/></div></div></div></div><div class="col-md-8 col-sm-7 sticko__side-content"><div class="stickybar__original__position"></div><nav class="stickybar coolBar trans visible-xs visible-sm"><div class="stickybar__wrapper coolBar__wrapper clearfix"><div class="coolBar__section"><a id="article_Ctrl" href="#" data-db-target-for="article-sec_Pop" role="button" aria-expanded="false" class="coolBar__ctrl"><i class="icon-burger"></i></a><div id="article_Pop" data-db-target-of="article-sec_Pop" aria-hidden="true" class="coolBar__drop fixed rlist"><div data-target=".article__sections" data-remove="false" data-target-class="hidden-xs hidden-sm" data-toggle="transplant" data-direction="from" data-transplant="self" class="transplant showit"></div></div></div><div data-target=".pill-section .pill-list" data-remove="false" data-target-class="hidden-xs hidden-sm" data-toggle="transplant" data-direction="from" data-transplant="self" class="transplant showit"></div></div></nav><div class="article__body"><!-- abstract content --><div class="hlFld-Abstract"><div class="article__section article__abstract hlFld-Abstract"><div class="colored-block__title"><h2 id="d56494829e1" class="section__title left-bordered-title">ABSTRACT</h2></div><div class="abstractSection abstractInFull">
+		<p> Distributed software development allows firms to leverage cost advantages and place work near centers of competency. This distribution comes at a cost -- distributed teams face challenges from differing cultures, skill levels, and a lack of shared working hours. In this paper we examine whether and how geographic and temporal separation in a large scale distributed software development influences developer interactions. We mine the work item trackers for a large commercial software project with a globally distributed development team. We examine both the time to respond and the propensity of individuals to respond and find that when taken together, geographic distance has little effect, while temporal separation has a significant negative impact on the time to respond. However, both have little impact on the social network of individuals in the organization. These results suggest that while temporally distributed teams do communicate, it is at a slower rate, and firms may wish to locate partner teams in similar time zones for maximal performance. </p>
+	</div></div></div><!-- /abstract content --><div class="pb-dropzone" data-pb-dropzone="pubContentAccessDenialDropzone"><!-- Empty dropzone --></div><div class="article__section article__references show-more-items" data-sectionname="References"><p class="explanation__text"></p><div class="colored-block__title"><h2 id="sec-ref" class="section__title left-bordered-title">
+                    References
+                </h2></div><ol class="rlist references__list references__numeric"><li id="ref-00001" class="&#xA;                references__item&#xA;            "><span class="references__note">Arora, A., and Gambardella, A. From underdogs to tigers: the rise and growth of the software industry in Brazil, China, India, Ireland, and Israel. Oxford University Press, Oxford, 2006. <span class="references__suffix"><a class="google-scholar" href="http://scholar.google.com/scholar?hl=en&q=Arora%2C+A.%2C+and+Gambardella%2C+A.+From+underdogs+to+tigers%3A+the+rise+and+growth+of+the+software+industry+in+Brazil%2C+China%2C+India%2C+Ireland%2C+and+Israel.+Oxford+University+Press%2C+Oxford%2C+2006.+"target="_blank"><span class="visibility-hidden">Google Scholar</span><img src="/specs/products/acm/images/googleScholar.svg" class="simple-tooltip__block--b" alt="Google Scholar"/></a></span><span class="references__suffix"><a href="/doi/10.5555/1208779" target="_blank"><span class="visibility-hidden">Digital Library</span><img class="simple-tooltip__block--b" data-title="Digital Library" alt="Digital Library" src="/templates/jsp/_ux3/_acm/images/DL_icon.svg"></img></a></span></span></li><li id="ref-00002" class="&#xA;                references__item&#xA;            "><span class="references__note">Beck, K., Beedle, M., van Bennekum, A., Cockburn, A., Cunningham, W., Fowler, M., Grenning, J., Highsmith, J., Hunt, A., Je↵ries, R., Kern, J., Marick, B., Martin, R. C., Mellor, S., Schwaber, K., Sutherland, J., and Thomas, D. Manifesto for agile software development. Last visited: May 15, 2013. http://agilemanifesto.org/principles.html, 2001.<span class="references__suffix"><a class="google-scholar" href="http://scholar.google.com/scholar?hl=en&q=Beck%2C+K.%2C+Beedle%2C+M.%2C+van+Bennekum%2C+A.%2C+Cockburn%2C+A.%2C+Cunningham%2C+W.%2C+Fowler%2C+M.%2C+Grenning%2C+J.%2C+Highsmith%2C+J.%2C+Hunt%2C+A.%2C+Je%E2%86%B5ries%2C+R.%2C+Kern%2C+J.%2C+Marick%2C+B.%2C+Martin%2C+R.+C.%2C+Mellor%2C+S.%2C+Schwaber%2C+K.%2C+Sutherland%2C+J.%2C+and+Thomas%2C+D.+Manifesto+for+agile+software+development.+Last+visited%3A+May+15%2C+2013.+http%3A%2F%2Fagilemanifesto.org%2Fprinciples.html%2C+2001."target="_blank"><span class="visibility-hidden">Google Scholar</span><img src="/specs/products/acm/images/googleScholar.svg" class="simple-tooltip__block--b" alt="Google Scholar"/></a></span></span></li><li id="ref-00003" class="&#xA;                references__item&#xA;            "><span class="references__note">Bird, C., Nagappan, N., Devanbu, P., Gall, H., and Murphy, B. Does distributed development a↵ect software quality?: an empirical case study of windows vista. Communications of the ACM 52, 8 (Aug. 2009), 85–93.  <span class="references__suffix"><a class="google-scholar" href="http://scholar.google.com/scholar?hl=en&q=Bird%2C+C.%2C+Nagappan%2C+N.%2C+Devanbu%2C+P.%2C+Gall%2C+H.%2C+and+Murphy%2C+B.+Does+distributed+development+a%E2%86%B5ect+software+quality%3F%3A+an+empirical+case+study+of+windows+vista.+Communications+of+the+ACM+52%2C+8+%28Aug.+2009%29%2C+85%E2%80%9393.+10.1145%2F1536616.1536639+"target="_blank"><span class="visibility-hidden">Google Scholar</span><img src="/specs/products/acm/images/googleScholar.svg" class="simple-tooltip__block--b" alt="Google Scholar"/></a></span><span class="references__suffix"><a href="/doi/10.1145/1536616.1536639" target="_blank"><span class="visibility-hidden">Digital Library</span><img class="simple-tooltip__block--b" data-title="Digital Library" alt="Digital Library" src="/templates/jsp/_ux3/_acm/images/DL_icon.svg"></img></a></span></span></li><li id="ref-00004" class="&#xA;                references__item&#xA;            "><span class="references__note">Brooks, F. P. The Mythical Man-Month: Essays on Software Engineering, Anniversary Edition, 2 ed. Addison-Wesley Professional, Boston, MA, USA, Aug. 1995. <span class="references__suffix"><a class="google-scholar" href="http://scholar.google.com/scholar?hl=en&q=Brooks%2C+F.+P.+The+Mythical+Man-Month%3A+Essays+on+Software+Engineering%2C+Anniversary+Edition%2C+2+ed.+Addison-Wesley+Professional%2C+Boston%2C+MA%2C+USA%2C+Aug.+1995.+"target="_blank"><span class="visibility-hidden">Google Scholar</span><img src="/specs/products/acm/images/googleScholar.svg" class="simple-tooltip__block--b" alt="Google Scholar"/></a></span><span class="references__suffix"><a href="/doi/10.5555/207583" target="_blank"><span class="visibility-hidden">Digital Library</span><img class="simple-tooltip__block--b" data-title="Digital Library" alt="Digital Library" src="/templates/jsp/_ux3/_acm/images/DL_icon.svg"></img></a></span></span></li><li id="ref-00005" class="&#xA;                references__item&#xA;            "><span class="references__note">Carmel, E. Global Software Teams: Collaborating Across Borders and Time Zones. Prentice Hall, Upper Saddle River, NJ, 1999. <span class="references__suffix"><a class="google-scholar" href="http://scholar.google.com/scholar?hl=en&q=Carmel%2C+E.+Global+Software+Teams%3A+Collaborating+Across+Borders+and+Time+Zones.+Prentice+Hall%2C+Upper+Saddle+River%2C+NJ%2C+1999.+"target="_blank"><span class="visibility-hidden">Google Scholar</span><img src="/specs/products/acm/images/googleScholar.svg" class="simple-tooltip__block--b" alt="Google Scholar"/></a></span><span class="references__suffix"><a href="/doi/10.5555/293968" target="_blank"><span class="visibility-hidden">Digital Library</span><img class="simple-tooltip__block--b" data-title="Digital Library" alt="Digital Library" src="/templates/jsp/_ux3/_acm/images/DL_icon.svg"></img></a></span></span></li><li id="ref-00006" class="&#xA;                references__item&#xA;            "><span class="references__note">Carmel, E., Espinosa, J., and Dubinsky, Y. ”Follow the sun” workflow in global software development. Journal of Management Information Systems 27, 1 (July 2010), 17–38.  <span class="references__suffix"><a class="google-scholar" href="http://scholar.google.com/scholar?hl=en&q=Carmel%2C+E.%2C+Espinosa%2C+J.%2C+and+Dubinsky%2C+Y.+%E2%80%9DFollow+the+sun%E2%80%9D+workflow+in+global+software+development.+Journal+of+Management+Information+Systems+27%2C+1+%28July+2010%29%2C+17%E2%80%9338.+10.2753%2FMIS0742-1222270102+"target="_blank"><span class="visibility-hidden">Google Scholar</span><img src="/specs/products/acm/images/googleScholar.svg" class="simple-tooltip__block--b" alt="Google Scholar"/></a></span><span class="references__suffix"><a href="/doi/10.2753/MIS0742-1222270102" target="_blank"><span class="visibility-hidden">Digital Library</span><img class="simple-tooltip__block--b" data-title="Digital Library" alt="Digital Library" src="/templates/jsp/_ux3/_acm/images/DL_icon.svg"></img></a></span></span></li><li id="ref-00007" class="&#xA;                references__item&#xA;            "><span class="references__note">Cataldo, M., Herbsleb, J. D., and Carley, K. M. Socio-technical congruence: a framework for assessing the impact of technical and work dependencies on software development productivity. In Proceedings of the Second ACM-IEEE International Symposium on Empirical Software Engineering and Measurement, ACM (Kaiserslautern, Germany, 2008), 2–11.  <span class="references__suffix"><a class="google-scholar" href="http://scholar.google.com/scholar?hl=en&q=Cataldo%2C+M.%2C+Herbsleb%2C+J.+D.%2C+and+Carley%2C+K.+M.+Socio-technical+congruence%3A+a+framework+for+assessing+the+impact+of+technical+and+work+dependencies+on+software+development+productivity.+In+Proceedings+of+the+Second+ACM-IEEE+International+Symposium+on+Empirical+Software+Engineering+and+Measurement%2C+ACM+%28Kaiserslautern%2C+Germany%2C+2008%29%2C+2%E2%80%9311.+10.1145%2F1414004.1414008+"target="_blank"><span class="visibility-hidden">Google Scholar</span><img src="/specs/products/acm/images/googleScholar.svg" class="simple-tooltip__block--b" alt="Google Scholar"/></a></span><span class="references__suffix"><a href="/doi/10.1145/1414004.1414008" target="_blank"><span class="visibility-hidden">Digital Library</span><img class="simple-tooltip__block--b" data-title="Digital Library" alt="Digital Library" src="/templates/jsp/_ux3/_acm/images/DL_icon.svg"></img></a></span></span></li><li id="ref-00008" class="&#xA;                references__item&#xA;            "><span class="references__note">Chong, J. Social behaviors on XP and non-XP teams: a comparative study. In Proceedings of the 2005 Conference on Agile Software Development (Denver, CO, USA, July 2005), 39–48.  <span class="references__suffix"><a class="google-scholar" href="http://scholar.google.com/scholar?hl=en&q=Chong%2C+J.+Social+behaviors+on+XP+and+non-XP+teams%3A+a+comparative+study.+In+Proceedings+of+the+2005+Conference+on+Agile+Software+Development+%28Denver%2C+CO%2C+USA%2C+July+2005%29%2C+39%E2%80%9348.+10.1109%2FADC.2005.40+"target="_blank"><span class="visibility-hidden">Google Scholar</span><img src="/specs/products/acm/images/googleScholar.svg" class="simple-tooltip__block--b" alt="Google Scholar"/></a></span><span class="references__suffix"><a href="/doi/10.1109/ADC.2005.40" target="_blank"><span class="visibility-hidden">Digital Library</span><img class="simple-tooltip__block--b" data-title="Digital Library" alt="Digital Library" src="/templates/jsp/_ux3/_acm/images/DL_icon.svg"></img></a></span></span></li><li id="ref-00009" class="&#xA;                references__item&#xA;            "><span class="references__note">Colfer, L., and Baldwin, C. Y. The mirroring hypothesis: Theory, evidence and exceptions. Working Paper ID 1539592, Harvard University Working Paper, June 2010.<span class="references__suffix"><a class="google-scholar" href="http://scholar.google.com/scholar?hl=en&q=Colfer%2C+L.%2C+and+Baldwin%2C+C.+Y.+The+mirroring+hypothesis%3A+Theory%2C+evidence+and+exceptions.+Working+Paper+ID+1539592%2C+Harvard+University+Working+Paper%2C+June+2010."target="_blank"><span class="visibility-hidden">Google Scholar</span><img src="/specs/products/acm/images/googleScholar.svg" class="simple-tooltip__block--b" alt="Google Scholar"/></a></span></span></li><li id="ref-00010" class="&#xA;                references__item&#xA;            "><span class="references__note">Conway, M. How do communities invent? Datamation 14, 5 (Apr. 1968), 28–31.<span class="references__suffix"><a class="google-scholar" href="http://scholar.google.com/scholar?hl=en&q=Conway%2C+M.+How+do+communities+invent%3F+Datamation+14%2C+5+%28Apr.+1968%29%2C+28%E2%80%9331."target="_blank"><span class="visibility-hidden">Google Scholar</span><img src="/specs/products/acm/images/googleScholar.svg" class="simple-tooltip__block--b" alt="Google Scholar"/></a></span></span></li><li id="ref-00011" class="&#xA;                references__item&#xA;            "><span class="references__note">Cramton, C. D. The mutual knowledge problem and its consequences for dispersed collaboration. Organization Science 12, 3 (June 2001), 346–371.  <span class="references__suffix"><a class="google-scholar" href="http://scholar.google.com/scholar?hl=en&q=Cramton%2C+C.+D.+The+mutual+knowledge+problem+and+its+consequences+for+dispersed+collaboration.+Organization+Science+12%2C+3+%28June+2001%29%2C+346%E2%80%93371.+10.1287%2Forsc.12.3.346.10098+"target="_blank"><span class="visibility-hidden">Google Scholar</span><img src="/specs/products/acm/images/googleScholar.svg" class="simple-tooltip__block--b" alt="Google Scholar"/></a></span><span class="references__suffix"><a href="/doi/10.1287/orsc.12.3.346.10098" target="_blank"><span class="visibility-hidden">Digital Library</span><img class="simple-tooltip__block--b" data-title="Digital Library" alt="Digital Library" src="/templates/jsp/_ux3/_acm/images/DL_icon.svg"></img></a></span></span></li><li id="ref-00012" class="&#xA;                references__item&#xA;            "><span class="references__note">Damian, D., Marczak, S., and Kwan, I. Collaboration patterns and the impact of distance on awareness in requirements-centred social networks. In 15th IEEE International Conference on Requirements Engineering Conference, IEEE (Dehli, India, 2007), 59–68.<span class="references__suffix"><a class="google-scholar" href="http://scholar.google.com/scholar?hl=en&q=Damian%2C+D.%2C+Marczak%2C+S.%2C+and+Kwan%2C+I.+Collaboration+patterns+and+the+impact+of+distance+on+awareness+in+requirements-centred+social+networks.+In+15th+IEEE+International+Conference+on+Requirements+Engineering+Conference%2C+IEEE+%28Dehli%2C+India%2C+2007%29%2C+59%E2%80%9368."target="_blank"><span class="visibility-hidden">Google Scholar</span><img src="/specs/products/acm/images/googleScholar.svg" class="simple-tooltip__block--b" alt="Google Scholar"/></a></span><span class="references__suffix"><a href="/servlet/linkout?suffix=e_1_3_2_1_12_1&amp;dbid=16&amp;doi=10.1145%2F2568225.2568279&amp;key=10.1109%2FRE.2007.51" target="_blank"><span class="visibility-hidden">Cross Ref</span><img class="simple-tooltip__block--b" data-title="Cross Ref" alt="Cross Ref" src="/templates/jsp/_ux3/_acm/images/crossref_icon.svg"></img></a></span></span></li><li id="ref-00013" class="&#xA;                references__item&#xA;            "><span class="references__note">Datta, S., Sindhgatta, R., and Sengupta, B. Talk versus work: characteristics of developer collaboration on the jazz platform. In Proceedings of the ACM International Conference on Object Oriented Programming Systems Languages and Applications, OOPSLA ’12, ACM (Tucson, AZ, USA, 2012), 655–668.  <span class="references__suffix"><a class="google-scholar" href="http://scholar.google.com/scholar?hl=en&q=Datta%2C+S.%2C+Sindhgatta%2C+R.%2C+and+Sengupta%2C+B.+Talk+versus+work%3A+characteristics+of+developer+collaboration+on+the+jazz+platform.+In+Proceedings+of+the+ACM+International+Conference+on+Object+Oriented+Programming+Systems+Languages+and+Applications%2C+OOPSLA+%E2%80%9912%2C+ACM+%28Tucson%2C+AZ%2C+USA%2C+2012%29%2C+655%E2%80%93668.+10.1145%2F2384616.2384664+"target="_blank"><span class="visibility-hidden">Google Scholar</span><img src="/specs/products/acm/images/googleScholar.svg" class="simple-tooltip__block--b" alt="Google Scholar"/></a></span><span class="references__suffix"><a href="/doi/10.1145/2384616.2384664" target="_blank"><span class="visibility-hidden">Digital Library</span><img class="simple-tooltip__block--b" data-title="Digital Library" alt="Digital Library" src="/templates/jsp/_ux3/_acm/images/DL_icon.svg"></img></a></span></span></li><li id="ref-00014" class="&#xA;                references__item&#xA;            "><span class="references__note">Ehrlich, K., and Cataldo, M. All-for-one and one-for-all?: a multi-level analysis of communication patterns and individual performance in geographically distributed software development. In Proceedings of the ACM 2012 conference on Computer Supported Cooperative Work, CSCW ’12, ACM (New York, NY, USA, 2012), 945–954.  <span class="references__suffix"><a class="google-scholar" href="http://scholar.google.com/scholar?hl=en&q=Ehrlich%2C+K.%2C+and+Cataldo%2C+M.+All-for-one+and+one-for-all%3F%3A+a+multi-level+analysis+of+communication+patterns+and+individual+performance+in+geographically+distributed+software+development.+In+Proceedings+of+the+ACM+2012+conference+on+Computer+Supported+Cooperative+Work%2C+CSCW+%E2%80%9912%2C+ACM+%28New+York%2C+NY%2C+USA%2C+2012%29%2C+945%E2%80%93954.+10.1145%2F2145204.2145345+"target="_blank"><span class="visibility-hidden">Google Scholar</span><img src="/specs/products/acm/images/googleScholar.svg" class="simple-tooltip__block--b" alt="Google Scholar"/></a></span><span class="references__suffix"><a href="/doi/10.1145/2145204.2145345" target="_blank"><span class="visibility-hidden">Digital Library</span><img class="simple-tooltip__block--b" data-title="Digital Library" alt="Digital Library" src="/templates/jsp/_ux3/_acm/images/DL_icon.svg"></img></a></span></span></li><li id="ref-00015" class="&#xA;                references__item&#xA;            "><span class="references__note">Ehrlich, K., and Chang, K. Leveraging expertise in global software teams: Going outside boundaries. In 2006 International Conference on Global Software Engineering (Florianopolis, Brazil, Oct. 2006), 149–158. <span class="references__suffix"><a class="google-scholar" href="http://scholar.google.com/scholar?hl=en&q=Ehrlich%2C+K.%2C+and+Chang%2C+K.+Leveraging+expertise+in+global+software+teams%3A+Going+outside+boundaries.+In+2006+International+Conference+on+Global+Software+Engineering+%28Florianopolis%2C+Brazil%2C+Oct.+2006%29%2C+149%E2%80%93158.+"target="_blank"><span class="visibility-hidden">Google Scholar</span><img src="/specs/products/acm/images/googleScholar.svg" class="simple-tooltip__block--b" alt="Google Scholar"/></a></span><span class="references__suffix"><a href="/doi/10.5555/1170744.1171374" target="_blank"><span class="visibility-hidden">Digital Library</span><img class="simple-tooltip__block--b" data-title="Digital Library" alt="Digital Library" src="/templates/jsp/_ux3/_acm/images/DL_icon.svg"></img></a></span></span></li><li id="ref-00016" class="&#xA;                references__item&#xA;            "><span class="references__note">Ehrlich, K., Valetto, G., and Helander, M. Seeing inside: Using social network analysis to understand patterns of collaboration and coordination in global software teams. In Second IEEE International Conference on Global Software Engineering, 2007. ICGSE 2007 (2007), 297–298.  <span class="references__suffix"><a class="google-scholar" href="http://scholar.google.com/scholar?hl=en&q=Ehrlich%2C+K.%2C+Valetto%2C+G.%2C+and+Helander%2C+M.+Seeing+inside%3A+Using+social+network+analysis+to+understand+patterns+of+collaboration+and+coordination+in+global+software+teams.+In+Second+IEEE+International+Conference+on+Global+Software+Engineering%2C+2007.+ICGSE+2007+%282007%29%2C+297%E2%80%93298.+10.1109%2FICGSE.2007.39+"target="_blank"><span class="visibility-hidden">Google Scholar</span><img src="/specs/products/acm/images/googleScholar.svg" class="simple-tooltip__block--b" alt="Google Scholar"/></a></span><span class="references__suffix"><a href="/doi/10.1109/ICGSE.2007.39" target="_blank"><span class="visibility-hidden">Digital Library</span><img class="simple-tooltip__block--b" data-title="Digital Library" alt="Digital Library" src="/templates/jsp/_ux3/_acm/images/DL_icon.svg"></img></a></span></span></li><li id="ref-00017" class="&#xA;                references__item&#xA;            "><span class="references__note">Fogel, K. Producing Open Source Software. O’Reilly &amp; Associates, Sebastapol, CA, 2005. <span class="references__suffix"><a class="google-scholar" href="http://scholar.google.com/scholar?hl=en&q=Fogel%2C+K.+Producing+Open+Source+Software.+O%E2%80%99Reilly+%26+Associates%2C+Sebastapol%2C+CA%2C+2005.+"target="_blank"><span class="visibility-hidden">Google Scholar</span><img src="/specs/products/acm/images/googleScholar.svg" class="simple-tooltip__block--b" alt="Google Scholar"/></a></span><span class="references__suffix"><a href="/doi/10.5555/1121560" target="_blank"><span class="visibility-hidden">Digital Library</span><img class="simple-tooltip__block--b" data-title="Digital Library" alt="Digital Library" src="/templates/jsp/_ux3/_acm/images/DL_icon.svg"></img></a></span></span></li><li id="ref-00018" class="&#xA;                references__item&#xA;            "><span class="references__note">Frost, R. Jazz and the eclipse way of collaboration. IEEE Software 24, 6 (2007), 114–117.  <span class="references__suffix"><a class="google-scholar" href="http://scholar.google.com/scholar?hl=en&q=Frost%2C+R.+Jazz+and+the+eclipse+way+of+collaboration.+IEEE+Software+24%2C+6+%282007%29%2C+114%E2%80%93117.+10.1109%2FMS.2007.170+"target="_blank"><span class="visibility-hidden">Google Scholar</span><img src="/specs/products/acm/images/googleScholar.svg" class="simple-tooltip__block--b" alt="Google Scholar"/></a></span><span class="references__suffix"><a href="/doi/10.1109/MS.2007.170" target="_blank"><span class="visibility-hidden">Digital Library</span><img class="simple-tooltip__block--b" data-title="Digital Library" alt="Digital Library" src="/templates/jsp/_ux3/_acm/images/DL_icon.svg"></img></a></span></span></li><li id="ref-00019" class="&#xA;                references__item&#xA;            "><span class="references__note">Handcock, M. S., Hunter, D. R., Butts, C. T., Goodreau, S. M., and Morris, M. Statnet: Software tools for the statistical modeling of network data. version 3.0., Mar. 2012. Last visited: May 30, 2013. http://statnet.org/.<span class="references__suffix"><a class="google-scholar" href="http://scholar.google.com/scholar?hl=en&q=Handcock%2C+M.+S.%2C+Hunter%2C+D.+R.%2C+Butts%2C+C.+T.%2C+Goodreau%2C+S.+M.%2C+and+Morris%2C+M.+Statnet%3A+Software+tools+for+the+statistical+modeling+of+network+data.+version+3.0.%2C+Mar.+2012.+Last+visited%3A+May+30%2C+2013.+http%3A%2F%2Fstatnet.org%2F."target="_blank"><span class="visibility-hidden">Google Scholar</span><img src="/specs/products/acm/images/googleScholar.svg" class="simple-tooltip__block--b" alt="Google Scholar"/></a></span></span></li><li id="ref-00020" class="&#xA;                references__item&#xA;            "><span class="references__note">Herbsleb, J., and Mockus, A. An empirical study of speed and communication in globally distributed software development. IEEE Transactions on Software Engineering 29, 6 (June 2003), 1–14.  <span class="references__suffix"><a class="google-scholar" href="http://scholar.google.com/scholar?hl=en&q=Herbsleb%2C+J.%2C+and+Mockus%2C+A.+An+empirical+study+of+speed+and+communication+in+globally+distributed+software+development.+IEEE+Transactions+on+Software+Engineering+29%2C+6+%28June+2003%29%2C+1%E2%80%9314.+10.1109%2FTSE.2003.1205177+"target="_blank"><span class="visibility-hidden">Google Scholar</span><img src="/specs/products/acm/images/googleScholar.svg" class="simple-tooltip__block--b" alt="Google Scholar"/></a></span><span class="references__suffix"><a href="/doi/10.1109/TSE.2003.1205177" target="_blank"><span class="visibility-hidden">Digital Library</span><img class="simple-tooltip__block--b" data-title="Digital Library" alt="Digital Library" src="/templates/jsp/_ux3/_acm/images/DL_icon.svg"></img></a></span></span></li><li id="ref-00021" class="&#xA;                references__item&#xA;            "><span class="references__note">Herbsleb, J., and Moitra, D. Global software development. IEEE Software 18, 2 (2001), 16–20.  <span class="references__suffix"><a class="google-scholar" href="http://scholar.google.com/scholar?hl=en&q=Herbsleb%2C+J.%2C+and+Moitra%2C+D.+Global+software+development.+IEEE+Software+18%2C+2+%282001%29%2C+16%E2%80%9320.+10.1109%2F52.914732+"target="_blank"><span class="visibility-hidden">Google Scholar</span><img src="/specs/products/acm/images/googleScholar.svg" class="simple-tooltip__block--b" alt="Google Scholar"/></a></span><span class="references__suffix"><a href="/doi/10.1109/52.914732" target="_blank"><span class="visibility-hidden">Digital Library</span><img class="simple-tooltip__block--b" data-title="Digital Library" alt="Digital Library" src="/templates/jsp/_ux3/_acm/images/DL_icon.svg"></img></a></span></span></li><li id="ref-00022" class="&#xA;                references__item&#xA;            "><span class="references__note">Herbsleb, J. D., and Grinter, R. E. Architectures, coordination, and distance: Conway’s law and beyond. IEEE Software 16, 5 (1999), 63–70.  <span class="references__suffix"><a class="google-scholar" href="http://scholar.google.com/scholar?hl=en&q=Herbsleb%2C+J.+D.%2C+and+Grinter%2C+R.+E.+Architectures%2C+coordination%2C+and+distance%3A+Conway%E2%80%99s+law+and+beyond.+IEEE+Software+16%2C+5+%281999%29%2C+63%E2%80%9370.+10.1109%2F52.795103+"target="_blank"><span class="visibility-hidden">Google Scholar</span><img src="/specs/products/acm/images/googleScholar.svg" class="simple-tooltip__block--b" alt="Google Scholar"/></a></span><span class="references__suffix"><a href="/doi/10.1109/52.795103" target="_blank"><span class="visibility-hidden">Digital Library</span><img class="simple-tooltip__block--b" data-title="Digital Library" alt="Digital Library" src="/templates/jsp/_ux3/_acm/images/DL_icon.svg"></img></a></span></span></li><li id="ref-00023" class="&#xA;                references__item&#xA;            "><span class="references__note">Hinds, P., and Mcgrath, C. Structures that work: Social structure, work structure and coordination ease in geographically distributed teams. In Proceedings of the 2006 20th anniversary conference on Computer Supported Cooperative Work, ACM Press (Ban↵, Alberta, Canada, Nov. 2006), 343–352.  <span class="references__suffix"><a class="google-scholar" href="http://scholar.google.com/scholar?hl=en&q=Hinds%2C+P.%2C+and+Mcgrath%2C+C.+Structures+that+work%3A+Social+structure%2C+work+structure+and+coordination+ease+in+geographically+distributed+teams.+In+Proceedings+of+the+2006+20th+anniversary+conference+on+Computer+Supported+Cooperative+Work%2C+ACM+Press+%28Ban%E2%86%B5%2C+Alberta%2C+Canada%2C+Nov.+2006%29%2C+343%E2%80%93352.+10.1145%2F1180875.1180928+"target="_blank"><span class="visibility-hidden">Google Scholar</span><img src="/specs/products/acm/images/googleScholar.svg" class="simple-tooltip__block--b" alt="Google Scholar"/></a></span><span class="references__suffix"><a href="/doi/10.1145/1180875.1180928" target="_blank"><span class="visibility-hidden">Digital Library</span><img class="simple-tooltip__block--b" data-title="Digital Library" alt="Digital Library" src="/templates/jsp/_ux3/_acm/images/DL_icon.svg"></img></a></span></span></li><li id="ref-00024" class="&#xA;                references__item&#xA;            "><span class="references__note">Holman, Z. How GitHub works, Aug. 2011. Last visited: May 15, 2013. http://zachholman.com/posts/how-github-works/.<span class="references__suffix"><a class="google-scholar" href="http://scholar.google.com/scholar?hl=en&q=Holman%2C+Z.+How+GitHub+works%2C+Aug.+2011.+Last+visited%3A+May+15%2C+2013.+http%3A%2F%2Fzachholman.com%2Fposts%2Fhow-github-works%2F."target="_blank"><span class="visibility-hidden">Google Scholar</span><img src="/specs/products/acm/images/googleScholar.svg" class="simple-tooltip__block--b" alt="Google Scholar"/></a></span></span></li><li id="ref-00025" class="&#xA;                references__item&#xA;            "><span class="references__note">Hunter, D. R., Handcock, M. S., Butts, C. T., Goodreau, S. M., and Morris, M. ergm: A package to fit, simulate and diagnose exponential-family models for networks. Journal of Statistical Software 24, 3 (May 2008), 1–29.<span class="references__suffix"><a class="google-scholar" href="http://scholar.google.com/scholar?hl=en&q=Hunter%2C+D.+R.%2C+Handcock%2C+M.+S.%2C+Butts%2C+C.+T.%2C+Goodreau%2C+S.+M.%2C+and+Morris%2C+M.+ergm%3A+A+package+to+fit%2C+simulate+and+diagnose+exponential-family+models+for+networks.+Journal+of+Statistical+Software+24%2C+3+%28May+2008%29%2C+1%E2%80%9329."target="_blank"><span class="visibility-hidden">Google Scholar</span><img src="/specs/products/acm/images/googleScholar.svg" class="simple-tooltip__block--b" alt="Google Scholar"/></a></span><span class="references__suffix"><a href="/servlet/linkout?suffix=e_1_3_2_1_25_1&amp;dbid=16&amp;doi=10.1145%2F2568225.2568279&amp;key=10.18637%2Fjss.v024.i03" target="_blank"><span class="visibility-hidden">Cross Ref</span><img class="simple-tooltip__block--b" data-title="Cross Ref" alt="Cross Ref" src="/templates/jsp/_ux3/_acm/images/crossref_icon.svg"></img></a></span></span></li><li id="ref-00026" class="&#xA;                references__item&#xA;            "><span class="references__note">Kwan, I., Schroter, A., and Damian, D. Does socio-technical congruence have an e↵ect on software build success? a study of coordination in a software project. IEEE Transactions on Software Engineering 37, 3 (2011), 307–324.  <span class="references__suffix"><a class="google-scholar" href="http://scholar.google.com/scholar?hl=en&q=Kwan%2C+I.%2C+Schroter%2C+A.%2C+and+Damian%2C+D.+Does+socio-technical+congruence+have+an+e%E2%86%B5ect+on+software+build+success%3F+a+study+of+coordination+in+a+software+project.+IEEE+Transactions+on+Software+Engineering+37%2C+3+%282011%29%2C+307%E2%80%93324.+10.1109%2FTSE.2011.29+"target="_blank"><span class="visibility-hidden">Google Scholar</span><img src="/specs/products/acm/images/googleScholar.svg" class="simple-tooltip__block--b" alt="Google Scholar"/></a></span><span class="references__suffix"><a href="/doi/10.1109/TSE.2011.29" target="_blank"><span class="visibility-hidden">Digital Library</span><img class="simple-tooltip__block--b" data-title="Digital Library" alt="Digital Library" src="/templates/jsp/_ux3/_acm/images/DL_icon.svg"></img></a></span></span></li><li id="ref-00027" class="&#xA;                references__item&#xA;            "><span class="references__note">Lanubile, F., Ebert, C., Prikladnicki, R., and Vizcaino, A. Collaboration tools for global software engineering. IEEE Software 27, 2 (Apr. 2010), 52–55.  <span class="references__suffix"><a class="google-scholar" href="http://scholar.google.com/scholar?hl=en&q=Lanubile%2C+F.%2C+Ebert%2C+C.%2C+Prikladnicki%2C+R.%2C+and+Vizcaino%2C+A.+Collaboration+tools+for+global+software+engineering.+IEEE+Software+27%2C+2+%28Apr.+2010%29%2C+52%E2%80%9355.+10.1109%2FMS.2010.39+"target="_blank"><span class="visibility-hidden">Google Scholar</span><img src="/specs/products/acm/images/googleScholar.svg" class="simple-tooltip__block--b" alt="Google Scholar"/></a></span><span class="references__suffix"><a href="/doi/10.1109/MS.2010.39" target="_blank"><span class="visibility-hidden">Digital Library</span><img class="simple-tooltip__block--b" data-title="Digital Library" alt="Digital Library" src="/templates/jsp/_ux3/_acm/images/DL_icon.svg"></img></a></span></span></li><li id="ref-00028" class="&#xA;                references__item&#xA;            "><span class="references__note">Lu, Z., Savas, B., Tang, W., and Dhillon, I. Supervised link prediction using multiple sources. In 10th International Conference on Data Mining, IEEE (Sydney, Australia, 2010), 923–928.  <span class="references__suffix"><a class="google-scholar" href="http://scholar.google.com/scholar?hl=en&q=Lu%2C+Z.%2C+Savas%2C+B.%2C+Tang%2C+W.%2C+and+Dhillon%2C+I.+Supervised+link+prediction+using+multiple+sources.+In+10th+International+Conference+on+Data+Mining%2C+IEEE+%28Sydney%2C+Australia%2C+2010%29%2C+923%E2%80%93928.+10.1109%2FICDM.2010.112+"target="_blank"><span class="visibility-hidden">Google Scholar</span><img src="/specs/products/acm/images/googleScholar.svg" class="simple-tooltip__block--b" alt="Google Scholar"/></a></span><span class="references__suffix"><a href="/doi/10.1109/ICDM.2010.112" target="_blank"><span class="visibility-hidden">Digital Library</span><img class="simple-tooltip__block--b" data-title="Digital Library" alt="Digital Library" src="/templates/jsp/_ux3/_acm/images/DL_icon.svg"></img></a></span></span></li><li id="ref-00029" class="&#xA;                references__item&#xA;            "><span class="references__note">MacCormack, A., Baldwin, C., and Rusnak, J. Exploring the duality between product and organizational architectures: A test of the ”mirroring” hypothesis. Research Policy 41, 8 (Oct. 2012), 1309–1324.<span class="references__suffix"><a class="google-scholar" href="http://scholar.google.com/scholar?hl=en&q=MacCormack%2C+A.%2C+Baldwin%2C+C.%2C+and+Rusnak%2C+J.+Exploring+the+duality+between+product+and+organizational+architectures%3A+A+test+of+the+%E2%80%9Dmirroring%E2%80%9D+hypothesis.+Research+Policy+41%2C+8+%28Oct.+2012%29%2C+1309%E2%80%931324."target="_blank"><span class="visibility-hidden">Google Scholar</span><img src="/specs/products/acm/images/googleScholar.svg" class="simple-tooltip__block--b" alt="Google Scholar"/></a></span><span class="references__suffix"><a href="/servlet/linkout?suffix=e_1_3_2_1_29_1&amp;dbid=16&amp;doi=10.1145%2F2568225.2568279&amp;key=10.1016%2Fj.respol.2012.04.011" target="_blank"><span class="visibility-hidden">Cross Ref</span><img class="simple-tooltip__block--b" data-title="Cross Ref" alt="Cross Ref" src="/templates/jsp/_ux3/_acm/images/crossref_icon.svg"></img></a></span></span></li><li id="ref-00030" class="&#xA;                references__item&#xA;            "><span class="references__note">Marlow, J., and Dabbish, L. Designing interventions to reduce psychological distance in globally distributed teams. In Proceedings of the ACM 2012 conference on Computer Supported Cooperative Work Companion, CSCW ’12, ACM (Seattle, WA, USA, 2012), 163–166.  <span class="references__suffix"><a class="google-scholar" href="http://scholar.google.com/scholar?hl=en&q=Marlow%2C+J.%2C+and+Dabbish%2C+L.+Designing+interventions+to+reduce+psychological+distance+in+globally+distributed+teams.+In+Proceedings+of+the+ACM+2012+conference+on+Computer+Supported+Cooperative+Work+Companion%2C+CSCW+%E2%80%9912%2C+ACM+%28Seattle%2C+WA%2C+USA%2C+2012%29%2C+163%E2%80%93166.+10.1145%2F2141512.2141568+"target="_blank"><span class="visibility-hidden">Google Scholar</span><img src="/specs/products/acm/images/googleScholar.svg" class="simple-tooltip__block--b" alt="Google Scholar"/></a></span><span class="references__suffix"><a href="/doi/10.1145/2141512.2141568" target="_blank"><span class="visibility-hidden">Digital Library</span><img class="simple-tooltip__block--b" data-title="Digital Library" alt="Digital Library" src="/templates/jsp/_ux3/_acm/images/DL_icon.svg"></img></a></span></span></li><li id="ref-00031" class="&#xA;                references__item&#xA;            "><span class="references__note">Martin, R. C. Agile Software Development: Principles, Patterns, and Practices. Prentice Hall PTR, Upper Saddle River, NJ, USA, 2003. <span class="references__suffix"><a class="google-scholar" href="http://scholar.google.com/scholar?hl=en&q=Martin%2C+R.+C.+Agile+Software+Development%3A+Principles%2C+Patterns%2C+and+Practices.+Prentice+Hall+PTR%2C+Upper+Saddle+River%2C+NJ%2C+USA%2C+2003.+"target="_blank"><span class="visibility-hidden">Google Scholar</span><img src="/specs/products/acm/images/googleScholar.svg" class="simple-tooltip__block--b" alt="Google Scholar"/></a></span><span class="references__suffix"><a href="/doi/10.5555/515230" target="_blank"><span class="visibility-hidden">Digital Library</span><img class="simple-tooltip__block--b" data-title="Digital Library" alt="Digital Library" src="/templates/jsp/_ux3/_acm/images/DL_icon.svg"></img></a></span></span></li><li id="ref-00032" class="&#xA;                references__item&#xA;            "><span class="references__note">McIntosh, S., Adams, B., Nguyen, T. H., Kamei, Y., and Hassan, A. E. An empirical study of build maintenance e↵ort. In Proceedings of the 33rd International Conference on Software Engineering, ICSE ’11, ACM (Honolulu, HI, USA, 2011), 141–150.  <span class="references__suffix"><a class="google-scholar" href="http://scholar.google.com/scholar?hl=en&q=McIntosh%2C+S.%2C+Adams%2C+B.%2C+Nguyen%2C+T.+H.%2C+Kamei%2C+Y.%2C+and+Hassan%2C+A.+E.+An+empirical+study+of+build+maintenance+e%E2%86%B5ort.+In+Proceedings+of+the+33rd+International+Conference+on+Software+Engineering%2C+ICSE+%E2%80%9911%2C+ACM+%28Honolulu%2C+HI%2C+USA%2C+2011%29%2C+141%E2%80%93150.+10.1145%2F1985793.1985813+"target="_blank"><span class="visibility-hidden">Google Scholar</span><img src="/specs/products/acm/images/googleScholar.svg" class="simple-tooltip__block--b" alt="Google Scholar"/></a></span><span class="references__suffix"><a href="/doi/10.1145/1985793.1985813" target="_blank"><span class="visibility-hidden">Digital Library</span><img class="simple-tooltip__block--b" data-title="Digital Library" alt="Digital Library" src="/templates/jsp/_ux3/_acm/images/DL_icon.svg"></img></a></span></span></li><li id="ref-00033" class="&#xA;                references__item&#xA;            "><span class="references__note">Nagappan, N., Murphy, B., and Basili, V. The influence of organizational structure on software quality: an empirical case study. In Proceedings of the 30th International Conference on Software Engineering, ICSE ’08, ACM (Leipzig, Germany, 2008), 521–530.  <span class="references__suffix"><a class="google-scholar" href="http://scholar.google.com/scholar?hl=en&q=Nagappan%2C+N.%2C+Murphy%2C+B.%2C+and+Basili%2C+V.+The+influence+of+organizational+structure+on+software+quality%3A+an+empirical+case+study.+In+Proceedings+of+the+30th+International+Conference+on+Software+Engineering%2C+ICSE+%E2%80%9908%2C+ACM+%28Leipzig%2C+Germany%2C+2008%29%2C+521%E2%80%93530.+10.1145%2F1368088.1368160+"target="_blank"><span class="visibility-hidden">Google Scholar</span><img src="/specs/products/acm/images/googleScholar.svg" class="simple-tooltip__block--b" alt="Google Scholar"/></a></span><span class="references__suffix"><a href="/doi/10.1145/1368088.1368160" target="_blank"><span class="visibility-hidden">Digital Library</span><img class="simple-tooltip__block--b" data-title="Digital Library" alt="Digital Library" src="/templates/jsp/_ux3/_acm/images/DL_icon.svg"></img></a></span></span></li><li id="ref-00034" class="&#xA;                references__item&#xA;            "><span class="references__note">Nguyen, T., Wolf, T., and Damian, D. Global software development and delay: Does distance still matter? In Proceedings of the 2008 International Conference on Global Software Engineering, IEEE (Bangalore, India, Aug. 2008), 45–54.  <span class="references__suffix"><a class="google-scholar" href="http://scholar.google.com/scholar?hl=en&q=Nguyen%2C+T.%2C+Wolf%2C+T.%2C+and+Damian%2C+D.+Global+software+development+and+delay%3A+Does+distance+still+matter%3F+In+Proceedings+of+the+2008+International+Conference+on+Global+Software+Engineering%2C+IEEE+%28Bangalore%2C+India%2C+Aug.+2008%29%2C+45%E2%80%9354.+10.1109%2FICGSE.2008.39+"target="_blank"><span class="visibility-hidden">Google Scholar</span><img src="/specs/products/acm/images/googleScholar.svg" class="simple-tooltip__block--b" alt="Google Scholar"/></a></span><span class="references__suffix"><a href="/doi/10.1109/ICGSE.2008.39" target="_blank"><span class="visibility-hidden">Digital Library</span><img class="simple-tooltip__block--b" data-title="Digital Library" alt="Digital Library" src="/templates/jsp/_ux3/_acm/images/DL_icon.svg"></img></a></span></span></li><li id="ref-00035" class="&#xA;                references__item&#xA;            "><span class="references__note">Olson, G. M., and Olson, J. S. Distance matters. Human Computer Interaction 15, 2&amp;3 (2000), 139––178.  <span class="references__suffix"><a class="google-scholar" href="http://scholar.google.com/scholar?hl=en&q=Olson%2C+G.+M.%2C+and+Olson%2C+J.+S.+Distance+matters.+Human+Computer+Interaction+15%2C+2%263+%282000%29%2C+139%E2%80%93%E2%80%93178.+10.1207%2FS15327051HCI1523_4+"target="_blank"><span class="visibility-hidden">Google Scholar</span><img src="/specs/products/acm/images/googleScholar.svg" class="simple-tooltip__block--b" alt="Google Scholar"/></a></span><span class="references__suffix"><a href="/doi/10.1207/S15327051HCI1523_4" target="_blank"><span class="visibility-hidden">Digital Library</span><img class="simple-tooltip__block--b" data-title="Digital Library" alt="Digital Library" src="/templates/jsp/_ux3/_acm/images/DL_icon.svg"></img></a></span></span></li><li id="ref-00036" class="&#xA;                references__item&#xA;            "><span class="references__note">Paasivaara, M., Durasiewicz, S., and Lassenius, C. Using scrum in a globally distributed project: a case study. Software Process: Improvement and Practice 13, 6 (2008), 527–544.  <span class="references__suffix"><a class="google-scholar" href="http://scholar.google.com/scholar?hl=en&q=Paasivaara%2C+M.%2C+Durasiewicz%2C+S.%2C+and+Lassenius%2C+C.+Using+scrum+in+a+globally+distributed+project%3A+a+case+study.+Software+Process%3A+Improvement+and+Practice+13%2C+6+%282008%29%2C+527%E2%80%93544.+10.1002%2Fspip.v13%3A6+"target="_blank"><span class="visibility-hidden">Google Scholar</span><img src="/specs/products/acm/images/googleScholar.svg" class="simple-tooltip__block--b" alt="Google Scholar"/></a></span><span class="references__suffix"><a href="/doi/10.5555/1464414.1464416" target="_blank"><span class="visibility-hidden">Digital Library</span><img class="simple-tooltip__block--b" data-title="Digital Library" alt="Digital Library" src="/templates/jsp/_ux3/_acm/images/DL_icon.svg"></img></a></span></span></li><li id="ref-00037" class="&#xA;                references__item&#xA;            "><span class="references__note">Pickering, J. M., and Grinter, R. E. Software engineering and CSCW: a common research ground. In Software Engineering and Human-Computer Interaction, R. N. Taylor and J. Coutaz, Eds., no. 896 in Lecture Notes in Computer Science. Springer Berlin Heidelberg, Jan. 1995, 241–250. <span class="references__suffix"><a class="google-scholar" href="http://scholar.google.com/scholar?hl=en&q=Pickering%2C+J.+M.%2C+and+Grinter%2C+R.+E.+Software+engineering+and+CSCW%3A+a+common+research+ground.+In+Software+Engineering+and+Human-Computer+Interaction%2C+R.+N.+Taylor+and+J.+Coutaz%2C+Eds.%2C+no.+896+in+Lecture+Notes+in+Computer+Science.+Springer+Berlin+Heidelberg%2C+Jan.+1995%2C+241%E2%80%93250.+"target="_blank"><span class="visibility-hidden">Google Scholar</span><img src="/specs/products/acm/images/googleScholar.svg" class="simple-tooltip__block--b" alt="Google Scholar"/></a></span><span class="references__suffix"><a href="/doi/10.5555/645541.657997" target="_blank"><span class="visibility-hidden">Digital Library</span><img class="simple-tooltip__block--b" data-title="Digital Library" alt="Digital Library" src="/templates/jsp/_ux3/_acm/images/DL_icon.svg"></img></a></span></span></li><li id="ref-00038" class="&#xA;                references__item&#xA;            "><span class="references__note">R Core Team. R Language and Environment for Statistical Computing. R Foundation for Statistical Computing, Vienna, Austria, 2012.<span class="references__suffix"><a class="google-scholar" href="http://scholar.google.com/scholar?hl=en&q=R+Core+Team.+R+Language+and+Environment+for+Statistical+Computing.+R+Foundation+for+Statistical+Computing%2C+Vienna%2C+Austria%2C+2012."target="_blank"><span class="visibility-hidden">Google Scholar</span><img src="/specs/products/acm/images/googleScholar.svg" class="simple-tooltip__block--b" alt="Google Scholar"/></a></span></span></li><li id="ref-00039" class="&#xA;                references__item&#xA;            "><span class="references__note">Raymond, E. S. The New Hacker’s Dictionary. MIT Press, Cambridge, MA, 1996. <span class="references__suffix"><a class="google-scholar" href="http://scholar.google.com/scholar?hl=en&q=Raymond%2C+E.+S.+The+New+Hacker%E2%80%99s+Dictionary.+MIT+Press%2C+Cambridge%2C+MA%2C+1996.+"target="_blank"><span class="visibility-hidden">Google Scholar</span><img src="/specs/products/acm/images/googleScholar.svg" class="simple-tooltip__block--b" alt="Google Scholar"/></a></span><span class="references__suffix"><a href="/doi/10.5555/236297" target="_blank"><span class="visibility-hidden">Digital Library</span><img class="simple-tooltip__block--b" data-title="Digital Library" alt="Digital Library" src="/templates/jsp/_ux3/_acm/images/DL_icon.svg"></img></a></span></span></li><li id="ref-00040" class="&#xA;                references__item&#xA;            "><span class="references__note">Raymond, E. S. The Cathedral and the Bazaar. O’Reilly &amp; Associates, Sebastapol, CA, Oct. 1999. <span class="references__suffix"><a class="google-scholar" href="http://scholar.google.com/scholar?hl=en&q=Raymond%2C+E.+S.+The+Cathedral+and+the+Bazaar.+O%E2%80%99Reilly+%26+Associates%2C+Sebastapol%2C+CA%2C+Oct.+1999.+"target="_blank"><span class="visibility-hidden">Google Scholar</span><img src="/specs/products/acm/images/googleScholar.svg" class="simple-tooltip__block--b" alt="Google Scholar"/></a></span><span class="references__suffix"><a href="/doi/10.5555/580808" target="_blank"><span class="visibility-hidden">Digital Library</span><img class="simple-tooltip__block--b" data-title="Digital Library" alt="Digital Library" src="/templates/jsp/_ux3/_acm/images/DL_icon.svg"></img></a></span></span></li><li id="ref-00041" class="&#xA;                references__item&#xA;            "><span class="references__note">Robins, G., Pattison, P., Kalish, Y., and Lusher, D. An introduction to exponential random graph (p*) models for social networks. Social Networks 29, 2 (May 2007), 173–191.<span class="references__suffix"><a class="google-scholar" href="http://scholar.google.com/scholar?hl=en&q=Robins%2C+G.%2C+Pattison%2C+P.%2C+Kalish%2C+Y.%2C+and+Lusher%2C+D.+An+introduction+to+exponential+random+graph+%28p*%29+models+for+social+networks.+Social+Networks+29%2C+2+%28May+2007%29%2C+173%E2%80%93191."target="_blank"><span class="visibility-hidden">Google Scholar</span><img src="/specs/products/acm/images/googleScholar.svg" class="simple-tooltip__block--b" alt="Google Scholar"/></a></span></span></li><li id="ref-00042" class="&#xA;                references__item&#xA;            "><span class="references__note">Sailer, K., and McCulloh, I. Social networks and spatial configuration - how o ce layouts drive social interaction. Social Networks 34, 1 (Jan. 2012), 47–58.<span class="references__suffix"><a class="google-scholar" href="http://scholar.google.com/scholar?hl=en&q=Sailer%2C+K.%2C+and+McCulloh%2C+I.+Social+networks+and+spatial+configuration+-+how+o+ce+layouts+drive+social+interaction.+Social+Networks+34%2C+1+%28Jan.+2012%29%2C+47%E2%80%9358."target="_blank"><span class="visibility-hidden">Google Scholar</span><img src="/specs/products/acm/images/googleScholar.svg" class="simple-tooltip__block--b" alt="Google Scholar"/></a></span><span class="references__suffix"><a href="/servlet/linkout?suffix=e_1_3_2_1_42_1&amp;dbid=16&amp;doi=10.1145%2F2568225.2568279&amp;key=10.1016%2Fj.socnet.2011.05.005" target="_blank"><span class="visibility-hidden">Cross Ref</span><img class="simple-tooltip__block--b" data-title="Cross Ref" alt="Cross Ref" src="/templates/jsp/_ux3/_acm/images/crossref_icon.svg"></img></a></span></span></li><li id="ref-00043" class="&#xA;                references__item&#xA;            "><span class="references__note">Sakthivel, S. Managing risk in o↵shore systems development. Communications of the ACM 50, 4 (Apr. 2007), 69–75.  <span class="references__suffix"><a class="google-scholar" href="http://scholar.google.com/scholar?hl=en&q=Sakthivel%2C+S.+Managing+risk+in+o%E2%86%B5shore+systems+development.+Communications+of+the+ACM+50%2C+4+%28Apr.+2007%29%2C+69%E2%80%9375.+10.1145%2F1232743.1232750+"target="_blank"><span class="visibility-hidden">Google Scholar</span><img src="/specs/products/acm/images/googleScholar.svg" class="simple-tooltip__block--b" alt="Google Scholar"/></a></span><span class="references__suffix"><a href="/doi/10.1145/1232743.1232750" target="_blank"><span class="visibility-hidden">Digital Library</span><img class="simple-tooltip__block--b" data-title="Digital Library" alt="Digital Library" src="/templates/jsp/_ux3/_acm/images/DL_icon.svg"></img></a></span></span></li><li id="ref-00044" class="&#xA;                references__item&#xA;            "><span class="references__note">Serrano, N., and Ciordia, I. Bugzilla, ITracker, and other bug trackers. IEEE Software 22, 2 (2005), 11–13.  <span class="references__suffix"><a class="google-scholar" href="http://scholar.google.com/scholar?hl=en&q=Serrano%2C+N.%2C+and+Ciordia%2C+I.+Bugzilla%2C+ITracker%2C+and+other+bug+trackers.+IEEE+Software+22%2C+2+%282005%29%2C+11%E2%80%9313.+10.1109%2FMS.2005.32+"target="_blank"><span class="visibility-hidden">Google Scholar</span><img src="/specs/products/acm/images/googleScholar.svg" class="simple-tooltip__block--b" alt="Google Scholar"/></a></span><span class="references__suffix"><a href="/doi/10.1109/MS.2005.32" target="_blank"><span class="visibility-hidden">Digital Library</span><img class="simple-tooltip__block--b" data-title="Digital Library" alt="Digital Library" src="/templates/jsp/_ux3/_acm/images/DL_icon.svg"></img></a></span></span></li><li id="ref-00045" class="&#xA;                references__item&#xA;            "><span class="references__note">Snijders, T. A., van de Bunt, G. G., and Steglich, C. E. Introduction to stochastic actor-based models for network dynamics. Social Networks 32, 1 (Jan. 2010), 44–60.<span class="references__suffix"><a class="google-scholar" href="http://scholar.google.com/scholar?hl=en&q=Snijders%2C+T.+A.%2C+van+de+Bunt%2C+G.+G.%2C+and+Steglich%2C+C.+E.+Introduction+to+stochastic+actor-based+models+for+network+dynamics.+Social+Networks+32%2C+1+%28Jan.+2010%29%2C+44%E2%80%9360."target="_blank"><span class="visibility-hidden">Google Scholar</span><img src="/specs/products/acm/images/googleScholar.svg" class="simple-tooltip__block--b" alt="Google Scholar"/></a></span><span class="references__suffix"><a href="/servlet/linkout?suffix=e_1_3_2_1_45_1&amp;dbid=16&amp;doi=10.1145%2F2568225.2568279&amp;key=10.1016%2Fj.socnet.2009.12.002" target="_blank"><span class="visibility-hidden">Cross Ref</span><img class="simple-tooltip__block--b" data-title="Cross Ref" alt="Cross Ref" src="/templates/jsp/_ux3/_acm/images/crossref_icon.svg"></img></a></span></span></li><li id="ref-00046" class="&#xA;                references__item&#xA;            "><span class="references__note">Tabachnick, B. G., and Fidell, L. S. Using multivariate statistics. Pearson Education, Boston, June 2012.<span class="references__suffix"><a class="google-scholar" href="http://scholar.google.com/scholar?hl=en&q=Tabachnick%2C+B.+G.%2C+and+Fidell%2C+L.+S.+Using+multivariate+statistics.+Pearson+Education%2C+Boston%2C+June+2012."target="_blank"><span class="visibility-hidden">Google Scholar</span><img src="/specs/products/acm/images/googleScholar.svg" class="simple-tooltip__block--b" alt="Google Scholar"/></a></span></span></li><li id="ref-00047" class="&#xA;                references__item&#xA;            "><span class="references__note">Tang, J. C., Zhao, C., Cao, X., and Inkpen, K. Your time zone or mine?: A study of globally time zone-shifted collaboration. In Proceedings of the ACM 2011 conference on Computer Supported Cooperative Work, CSCW ’11, ACM (Hangzhou, China, Mar. 2011), 235–244.  <span class="references__suffix"><a class="google-scholar" href="http://scholar.google.com/scholar?hl=en&q=Tang%2C+J.+C.%2C+Zhao%2C+C.%2C+Cao%2C+X.%2C+and+Inkpen%2C+K.+Your+time+zone+or+mine%3F%3A+A+study+of+globally+time+zone-shifted+collaboration.+In+Proceedings+of+the+ACM+2011+conference+on+Computer+Supported+Cooperative+Work%2C+CSCW+%E2%80%9911%2C+ACM+%28Hangzhou%2C+China%2C+Mar.+2011%29%2C+235%E2%80%93244.+10.1145%2F1958824.1958860+"target="_blank"><span class="visibility-hidden">Google Scholar</span><img src="/specs/products/acm/images/googleScholar.svg" class="simple-tooltip__block--b" alt="Google Scholar"/></a></span><span class="references__suffix"><a href="/doi/10.1145/1958824.1958860" target="_blank"><span class="visibility-hidden">Digital Library</span><img class="simple-tooltip__block--b" data-title="Digital Library" alt="Digital Library" src="/templates/jsp/_ux3/_acm/images/DL_icon.svg"></img></a></span></span></li><li id="ref-00048" class="&#xA;                references__item&#xA;            "><span class="references__note">Wagstrom, P., Herbsleb, J., and Carley, K. Communication, team performance, and the individual: Bridging technical dependencies. In Proceedings of the 2010 Academy of Management Annual Meeting (Montreal, Canada, Aug. 2010).<span class="references__suffix"><a class="google-scholar" href="http://scholar.google.com/scholar?hl=en&q=Wagstrom%2C+P.%2C+Herbsleb%2C+J.%2C+and+Carley%2C+K.+Communication%2C+team+performance%2C+and+the+individual%3A+Bridging+technical+dependencies.+In+Proceedings+of+the+2010+Academy+of+Management+Annual+Meeting+%28Montreal%2C+Canada%2C+Aug.+2010%29."target="_blank"><span class="visibility-hidden">Google Scholar</span><img src="/specs/products/acm/images/googleScholar.svg" class="simple-tooltip__block--b" alt="Google Scholar"/></a></span><span class="references__suffix"><a href="/servlet/linkout?suffix=e_1_3_2_1_48_1&amp;dbid=16&amp;doi=10.1145%2F2568225.2568279&amp;key=10.5465%2Fambpp.2010.54500789" target="_blank"><span class="visibility-hidden">Cross Ref</span><img class="simple-tooltip__block--b" data-title="Cross Ref" alt="Cross Ref" src="/templates/jsp/_ux3/_acm/images/crossref_icon.svg"></img></a></span></span></li><li id="ref-00049" class="&#xA;                references__item&#xA;            "><span class="references__note">Wang, Y., and Redmiles, D. Understanding cheap talk and the emergence of trust in global software engineering: An evolutionary game theory perspective. In Proceedings of the 6th International Workshop on Cooperative and Human Aspects of Software Engineering (San Francisco, CA, May 2013).<span class="references__suffix"><a class="google-scholar" href="http://scholar.google.com/scholar?hl=en&q=Wang%2C+Y.%2C+and+Redmiles%2C+D.+Understanding+cheap+talk+and+the+emergence+of+trust+in+global+software+engineering%3A+An+evolutionary+game+theory+perspective.+In+Proceedings+of+the+6th+International+Workshop+on+Cooperative+and+Human+Aspects+of+Software+Engineering+%28San+Francisco%2C+CA%2C+May+2013%29."target="_blank"><span class="visibility-hidden">Google Scholar</span><img src="/specs/products/acm/images/googleScholar.svg" class="simple-tooltip__block--b" alt="Google Scholar"/></a></span><span class="references__suffix"><a href="/servlet/linkout?suffix=e_1_3_2_1_49_1&amp;dbid=16&amp;doi=10.1145%2F2568225.2568279&amp;key=10.1109%2FCHASE.2013.6614753" target="_blank"><span class="visibility-hidden">Cross Ref</span><img class="simple-tooltip__block--b" data-title="Cross Ref" alt="Cross Ref" src="/templates/jsp/_ux3/_acm/images/crossref_icon.svg"></img></a></span></span></li><li id="ref-00050" class="&#xA;                references__item&#xA;            "><span class="references__note">Wolf, T., Schroeter, A., Damian, D., and Nguyen, T. Predicting build failures using social network analysis on developer communication. In Proceedings of the 2009 IEEE 31st International Conference on Software Engineering, IEEE Computer Society (Vancouver, BC, May 2009), 1–11.  <span class="references__suffix"><a class="google-scholar" href="http://scholar.google.com/scholar?hl=en&q=Wolf%2C+T.%2C+Schroeter%2C+A.%2C+Damian%2C+D.%2C+and+Nguyen%2C+T.+Predicting+build+failures+using+social+network+analysis+on+developer+communication.+In+Proceedings+of+the+2009+IEEE+31st+International+Conference+on+Software+Engineering%2C+IEEE+Computer+Society+%28Vancouver%2C+BC%2C+May+2009%29%2C+1%E2%80%9311.+10.1109%2FICSE.2009.5070503+"target="_blank"><span class="visibility-hidden">Google Scholar</span><img src="/specs/products/acm/images/googleScholar.svg" class="simple-tooltip__block--b" alt="Google Scholar"/></a></span><span class="references__suffix"><a href="/doi/10.1109/ICSE.2009.5070503" target="_blank"><span class="visibility-hidden">Digital Library</span><img class="simple-tooltip__block--b" data-title="Digital Library" alt="Digital Library" src="/templates/jsp/_ux3/_acm/images/DL_icon.svg"></img></a></span></span></li></ol></div>
+
+
+
+
+
+
+
+
+
+        <div data-widget-def="UX3TagWidget" data-widget-id="2a75f978-170a-4843-8722-e878a1b77fbc" class="citation article__section article__index-terms">
+        
+
+
+
+        
+        
+
+
+
+
+
+
+
+
+
+        <div data-widget-def="graphQueryWidget" data-widget-id="4ca2ed65-717e-4e67-bbb5-6578b8c6acac" class="colored-block__title">
+        
+
+
+
+        
+        <h2 id="sec-terms" class="section__title left-bordered-title">Index Terms</h2>
+
+        </div>
+    
+
+<ol class="rlist organizational-chart"><li><h6>Does latitude hurt while longitude kills? geographical and temporal separation in a large scale software development project</h6><ol class="rlist level-1  ch-2 hasNodes"><li><div data-background="#808080" style="background-color:#808080;box-shadow:none"><p><a href="/topic/ccs2012/10003456?ContentGroupKey=10.1145%2F2568225&amp;expand=all">Social and professional topics</a></p></div><ol class="rlist level-2 ch-1 hasNodes"><li><div data-background="#808080" style="background-color:#808080;box-shadow:none"><p><a href="/topic/ccs2012/10003456.10003457?ContentGroupKey=10.1145%2F2568225&amp;expand=all">Professional topics</a></p></div><ol class="rlist level-3 ch-2 hasNodes"><li><div data-background="#F5F5F5" style="background-color:#F5F5F5;box-shadow:none"><p><a href="/topic/ccs2012/10003456.10003457.10003567?ContentGroupKey=10.1145%2F2568225&amp;expand=all">Computing and business</a></p></div><ol class="rlist level-4 ch-0"></ol></li><li><div data-background="#808080" style="background-color:#808080;box-shadow:none"><p><a href="/topic/ccs2012/10003456.10003457.10003490?ContentGroupKey=10.1145%2F2568225&amp;expand=all">Management of computing and information systems</a></p></div><ol class="rlist level-5 ch-1 hasNodes"><li><div data-background="#808080" style="background-color:#808080;box-shadow:none"><p><a href="/topic/ccs2012/10003456.10003457.10003490.10003491?ContentGroupKey=10.1145%2F2568225&amp;expand=all">Project and people management</a></p></div><ol class="rlist level-6 ch-0"></ol></li></ol></li></ol></li></ol></li><li><div data-background="#808080" style="background-color:#808080;box-shadow:none"><p><a href="/topic/ccs2012/10011007?ContentGroupKey=10.1145%2F2568225&amp;expand=all">Software and its engineering</a></p></div><ol class="rlist level-2 ch-2 hasNodes"><li><div data-background="#808080" style="background-color:#808080;box-shadow:none"><p><a href="/topic/ccs2012/10011007.10011074?ContentGroupKey=10.1145%2F2568225&amp;expand=all">Software creation and management</a></p></div><ol class="rlist level-3 ch-1 hasNodes"><li><div data-background="#808080" style="background-color:#808080;box-shadow:none"><p><a href="/topic/ccs2012/10011007.10011074.10011081?ContentGroupKey=10.1145%2F2568225&amp;expand=all">Software development process management</a></p></div><ol class="rlist level-4 ch-0"></ol></li></ol></li><li><div data-background="#808080" style="background-color:#808080;box-shadow:none"><p><a href="/topic/ccs2012/10011007.10011006?ContentGroupKey=10.1145%2F2568225&amp;expand=all">Software notations and tools</a></p></div><ol class="rlist level-4 ch-1 hasNodes"><li><div data-background="#808080" style="background-color:#808080;box-shadow:none"><p><a href="/topic/ccs2012/10011007.10011006.10011071?ContentGroupKey=10.1145%2F2568225&amp;expand=all">Software configuration management and version control systems</a></p></div><ol class="rlist level-5 ch-0"></ol></li></ol></li></ol></li></ol></li></ol>
+
+        </div>
+    
+
+
+
+
+
+
+
+
+
+
+        <div data-widget-def="graphQueryWidget" data-widget-id="91639479-279a-46e3-b7c7-f902a3fd7945" class="toc__section accordion-tabbed__tab">
+        
+
+
+
+        
+        
+
+
+
+
+
+
+
+
+
+        <div data-widget-def="UX3RelatedDigitalObject" data-widget-id="98838540-5c38-436f-9b98-0e292765fbe4" class="accordion-tabbed__content">
+        
+
+
+
+        
+        
+
+        </div>
+    
+
+
+        </div>
+    
+
+
+
+
+        
+        <div class="article__section article__comments">
+
+
+
+        
+        <div class="colored-block__title"> <h2 id="sec-comments" class="section__title left-bordered-title">Comments</h2> </div>
+
+
+
+
+        
+        <div id="disqus_thread"></div><a href="https://dl.acm.org/doi/10.1145/2568225.2568279#disqus_thread" class="disqus-count hidden"></a><script>var disqus_config = function () {
+    this.page.url = window.location.href;
+    this.page.identifier = '10.1145/2568225.2568279';
+    this.page.remote_auth_s3 = '';
+    this.page.api_key = 'MmWj4FlWmXk20FJsmWMXbTJoZT7TVzTsc9Rw0yrJp3L1ZNXZuvmxF3F5rFIF8RqQ';
+};
+(function () {
+    var d = document, s = d.createElement('script');
+    s.src = 'https://acm-prod.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+})();</script><noscript>Please enable JavaScript to view the<a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript><script id="dsq-count-scr" src="//acm-prod.disqus.com/count.js" async=""></script>
+</div>
+</div><div class="pill-content"><div id="pill-access"><div class="pill-access__content">
+
+
+
+        
+        <div class="pill-access__content"><div class="section__separator"><h3 class="left-bordered-title">Login options</h3><div class="section__content"><p class="info--text">Check if you have access through your login credentials or your institution to get full access on this article.</p><a href="/action/showLogin?redirectUri=/doi/10.1145/2568225.2568279" title="Sign in" class="btn big btn--inverse">Sign in</a></div></div><div class="section__separator"><h3 class="left-bordered-title">Full Access</h3><div class="section__content"><a href="/action/publisherEcommerceHelper?doi=10.1145/2568225.2568279&amp;redirectUri=https://dl.acm.org/doi/10.1145/2568225.2568279" title="Get this Publication" class="btn blue big">Get this Publication</a></div></div></div>
+</div></div><div id="pill-information"><div class="tab tab--flex"><ul role="tablist" class="rlist tab__nav"><li role="presentation" class="active"><a id="pill-information__contentcon" href="#pill-information__content" aria-controls="pill-information__content" role="tab" data-toggle="tab" title="Information" aria-selected="true" data-simple-tab-id="" tabindex="0">Information</a></li><li role="presentation"><a id="pill-authors__contentcon" href="#pill-authors__content" aria-controls="pill-authors__content" role="tab" data-toggle="tab" title="Authors" aria-selected="false" data-simple-tab-id="" tabindex="-1">Contributors</a></li></ul><ul class="rlist tab__content"><li id="pill-information__content" aria-labelledby="pill-information__contentcon" role="tabpanel" aria-hidden="false" tabindex="0" class="tab__pane active"><div class="pill-information__content"><div class="section__separator"><h3 class="left-bordered-title">Published in</h3><div class="section__content cover-image-proceeding">
+
+
+
+
+
+
+
+
+
+        <div data-widget-def="UX3CoverImage" data-widget-id="7b8bd09e-8112-4266-b136-2f71ab2b109c" class="left-side-image">
+        
+
+
+
+        
+        <div class="cover-image"><div class="cover-image__image"><img src="/specs/products/acm/releasedAssets/images/Default_image_lazy.svg" data-src="/specs/products/acm/releasedAssets/images/cover-default--acm-proceeding.svg" alt="ACM Conferences cover image" class="lazy"/></div><div class="cover-image__details"><div class="book-meta">ICSE 2014: Proceedings of the 36th International Conference on Software Engineering</div><div class="cover-date">May 2014</div><div class="cover-pages">1139  pages</div><div class="cover-image__details-extra"><div class="flex-container"><span class="bold">ISBN:</span><span class="space">9781450327565</span></div><div class="flex-container"><span class="bold">DOI:</span><span class="space">10.1145/2568225</span></div><div class="flex-container"><div><ul class="rlist--inline loa truncate-list" title="list of authors" data-lines="2">
+   <li class="label"><b>General Chair: </b></li>
+   <li><a href="/author/Jalote%2C+Pankaj" title="Pankaj Jalote"><span>Pankaj Jalote</span></a><span class="loa_author_inst hidden">
+         <p>IIIT-Delhi, India</p></span><span>, </span></li>
+   <li class="label"><b>Program Chairs: </b></li>
+   <li><a href="/author/Briand%2C+Lionel" title="Lionel Briand"><span>Lionel Briand</span></a><span class="loa_author_inst hidden">
+         <p>University of Luxembourg, Luxembourg</p></span><span>, </span></li>
+   <li><a href="/author/Hoek%2C+Andr%C3%A9+van+der" title="André van der Hoek"><span>André van der Hoek</span></a><span class="loa_author_inst hidden">
+         <p>University of California, Irvine, USA</p></span></li>
+</ul>
+</div></div></div><div class="pb-dropzone" data-pb-dropzone="metadataDisplayExtra" title="metadataDisplayExtra"></div></div></div>
+
+        </div>
+    
+<p class="copyrights small">Copyright © 2014 ACM</p></div></div><div class="section__separator proceedingInfo-sponsors hidden"><h3 class="left-bordered-title">Sponsors</h3><ul class="proceedingInfo-sponsors__list"></ul></div><div class="section__separator proceedingInfo-inCoop hidden"><h3 class="left-bordered-title">In-Cooperation</h3><ul class="proceedingInfo-inCoop__list"></ul></div><div class="section__separator"><h3 class="left-bordered-title">Publisher</h3><div class="section__content publisher"><div class="inlineBlock"></div><div class="inlineBlock"><p class="publisher__name">Association for Computing Machinery</p><p class="publisher__address">New York, NY, United States</p></div></div></div>
+
+
+
+        
+        <div class="section__separator"><h3 class="left-bordered-title">Publication History</h3><div class="section__content"><ul class="rlist"><li>Published: 31 May 2014</li></ul></div></div>
+
+
+
+
+        
+        <!-- rightslink drop zone-->
+
+
+
+        
+        <div class="section__separator"><h3 class="left-bordered-title"> Permissions</h3><div class="section__content"><p class="info--text">Request permissions about this article.</p><a href="/servlet/linkout?type=rightslinkBasic&amp;url=ContentIdType%3Ddoi%26isbn%3D9781450327565%26contentID%3D10.1145%252F2568225.2568279%26bookTitle%3DProceedings%2Bof%2Bthe%2B36th%2BInternational%2BConference%2Bon%2BSoftware%2BEngineering" rel="noopener" target="_blank" class="btn big stretched blue">Request Permissions</a></div></div>
+
+
+
+<div class="section__separator"><h3 class="left-bordered-title">Author Tags</h3><div class="section__content"><div class="tags-widget"><div class="tags-widget__content"><ul class="rlist--inline"><li><a href="/keyword/Distributed Software Development?expand=all" title="Distributed Software Development" class="badge-type">Distributed Software Development</a></li><li><a href="/keyword/Exponential Random Graph Models?expand=all" title="Exponential Random Graph Models" class="badge-type">Exponential Random Graph Models</a></li><li><a href="/keyword/Agile Development?expand=all" title="Agile Development" class="badge-type">Agile Development</a></li><li><a href="/keyword/Social Network Analysis?expand=all" title="Social Network Analysis" class="badge-type">Social Network Analysis</a></li><li><a href="/keyword/Collaboration?expand=all" title="Collaboration" class="badge-type">Collaboration</a></li></ul></div></div></div></div><div class="section__separator"><h3 class="left-bordered-title">Qualifiers</h3><ul class="qualifiers__list"><li class="capitalized qualifiers__list__item">research-article</li></ul></div><div class="section__separator proceedingInfo-conference hidden"><h3 class="left-bordered-title">Conference</h3></div>
+
+
+
+
+
+
+
+
+
+        <div data-widget-def="UX3AcceptanceRatesWidget" data-widget-id="daac1568-1d03-438e-a4c9-c9df280908b7" class="section__separator">
+        
+
+
+
+        
+        <div class="acceptance-rates__section"><h2 id="acceptance-rates" aria-expanded="true" class="left-bordered-title">Acceptance Rates</h2><div class="accordion-tabbed__content"><div class="acceptance-rates__heading"><h6>Overall Acceptance Rate<span> 388 </span>of<span> 2,520 </span>submissions,<span> 15%</span></h6></div></div></div>
+
+        </div>
+    
+
+
+
+
+
+
+
+
+
+
+        <div data-widget-def="UX3UpcomingConferencesWidget" data-widget-id="452ce022-9919-435e-ab40-1386965a30bd" class="section__separator">
+        
+
+
+
+        
+        
+
+        </div>
+    
+<div class="section__separator funding-sources hidden"><h3 class="left-bordered-title">Funding Sources</h3><ul class="funding-list"></ul></div></div></li><li id="pill-authors__content" aria-labelledby="pill-authors__contentcon" role="tabpanel" aria-hidden="true" class="tab__pane"><div class="pill-authors__content"><div class="section__separator"><div class="pill-authors-list"><div class="expandable-accordion"><div class="pill-normalized-authors">
+
+
+
+
+
+
+
+
+
+        <div data-widget-def="UX3BibliometricsWidget" data-widget-id="b8ab2a42-427c-48b4-a4b0-de7e4ca80aa8" class="contrib-metrics-bibliometrics">
+        
+
+
+
+        
+        <div class="contrib-metrics-wrapper accordion-tabbed__tab">
+
+
+
+
+
+
+
+
+
+        <div data-widget-def="UX3HTMLWidget" data-widget-id="fef8712e-21ff-4a15-97d6-535afe5b5fbb" class="clearfix">
+        
+
+
+
+        
+        <h2 class="left-bordered-title pull-left">Contributor Metrics</h2><a class="pull-right expand-all" href="/" aria-expanded="false">Expand All </a>
+
+        </div>
+    
+<div data-sectionname="Authors" data-numberOfLiToShow="4"><div class="contrib-metrics-bibliometrics"><div class="accordion authors-accordion"><ul class="accordion-tabbed rlist loa clearfix"><li class="accordion-tabbed__tab accordion__closed grid-item"><div class="accordion-tabbed__control"><a href="javascript:void(0)" aria-controls="adItem-0" aria-expanded="false" aria-haspopup="true" id="adItem-0_Ctrl" class="accordion-tabbed__arrow"></a>
+    <input class="contrib-id" type="hidden" value="10.1145/contrib-81318496756"/>
+    <div class="auth-image">
+        
+            <a href="/profile/81318496756">
+                <img src="/pb-assets/icons/DOs/default-profile-1543932446943.svg" alt='' aria-hidden="true" width="56" height="56">
+            </a>    
+        
+    </div>
+    <div class="auth-info" style="word-break: break-word; width: 70%;">
+        <span class="auth-name">
+            <a href="/profile/81318496756" title="Expand to see Bibliometrics: publication history">Patrick Adam Wagstrom</a>
+        </span>
+        <span class="info--text auth-institution">
+             IBM Thomas J. Watson Research Center 
+        </span>
+    </div>
+</div><div aria-labelledby="adItem-0_Ctrl" style="display: none;" id="adItem-0" class="accordion-tabbed__content"><ul class="rlist auth-metrics metrics__list separated-block--dashed--top"><li><span class="metric-name">Publication Years</span><span class="metric-value">2006 - 2014</span></li><li><span class="metric-name">Publication counts</span><span class="metric-value">14</span></li><li><span class="metric-name">Available for Download</span><span class="metric-value">13</span></li><li><span class="metric-name">Citation count</span><span class="metric-value">437</span></li><li><span class="metric-name">Downloads (cumulative)</span><span class="metric-value">8,449</span></li><li><span class="metric-name">Downloads (6 weeks)</span><span class="metric-value">40</span></li><li><span class="metric-name">Downloads (12 months)</span><span class="metric-value">430</span></li><li><span class="metric-name">Average Citation per Article</span><span class="metric-value">31</span></li><li><span class="metric-name">Average Downloads per Article</span><span class="metric-value">650</span></li></ul><div class="view-profile separated-block--dashed--top"><a href="/profile/81318496756" title="View Full Profile" class="btn transparent stretched">View Full Profile<i aria-hidden="true" class="icon-export"></i></a></div></div></li><li class="accordion-tabbed__tab accordion__closed grid-item"><div class="accordion-tabbed__control"><a href="javascript:void(0)" aria-controls="adItem-1" aria-expanded="false" aria-haspopup="true" id="adItem-1_Ctrl" class="accordion-tabbed__arrow"></a>
+    <input class="contrib-id" type="hidden" value="10.1145/contrib-81482643819"/>
+    <div class="auth-image">
+        
+            <a href="/profile/81482643819">
+                <img src="/pb-assets/icons/DOs/default-profile-1543932446943.svg" alt='' aria-hidden="true" width="56" height="56">
+            </a>    
+        
+    </div>
+    <div class="auth-info" style="word-break: break-word; width: 70%;">
+        <span class="auth-name">
+            <a href="/profile/81482643819" title="Expand to see Bibliometrics: publication history">Subhajit  Datta</a>
+        </span>
+        <span class="info--text auth-institution">
+             Singapore University of Technology and Design 
+        </span>
+    </div>
+</div><div aria-labelledby="adItem-1_Ctrl" style="display: none;" id="adItem-1" class="accordion-tabbed__content"><ul class="rlist auth-metrics metrics__list separated-block--dashed--top"><li><span class="metric-name">Publication Years</span><span class="metric-value">2010 - 2019</span></li><li><span class="metric-name">Publication counts</span><span class="metric-value">18</span></li><li><span class="metric-name">Available for Download</span><span class="metric-value">14</span></li><li><span class="metric-name">Citation count</span><span class="metric-value">112</span></li><li><span class="metric-name">Downloads (cumulative)</span><span class="metric-value">2,755</span></li><li><span class="metric-name">Downloads (6 weeks)</span><span class="metric-value">9</span></li><li><span class="metric-name">Downloads (12 months)</span><span class="metric-value">108</span></li><li><span class="metric-name">Average Citation per Article</span><span class="metric-value">6</span></li><li><span class="metric-name">Average Downloads per Article</span><span class="metric-value">197</span></li></ul><div class="view-profile separated-block--dashed--top"><a href="/profile/81482643819" title="View Full Profile" class="btn transparent stretched">View Full Profile<i aria-hidden="true" class="icon-export"></i></a></div></div></li></ul></div></div></div>
+
+
+
+</div>
+
+        </div>
+    
+</div><div aria-hidden="true" class="pill-all-authors authors-accordion disable-truncate hidden"><div class="border-bottom clearfix"> <div id="sb-1"> <ul data-lines="2" ariaa-label="authors" data-position="beforeLast" class="rlist--inline loa truncate-list"> <li class="label"><b>Authors: </b></li> <li class="loa__item"><a id="arnd_25504618027298378_Ctrl" href="javascript:void(0);" aria-controls="arnd_25504618027298378" aria-haspopup="true" class="author-name" title="Patrick Wagstrom"><span class="loa__author-info"> <div class="author-data"><span class="loa__author-name"><span><img class="author-picture" src="/pb-assets/icons/DOs/default-profile-1543932446943.svg" width="24" height="24" alt="" aria-hidden="true"/>Patrick Wagstrom</span></span></div><span class="loa_author_inst"> <p data-pill-inst="arnd_25504618027298378" data-doi="10.1145/contrib-81318496756">IBM Research, USA</p></span></span></a><div id="arnd_25504618027298378" aria-labelledby="arnd_25504618027298378_Ctrl" class="author-info"> <div class="author-info__header" data-pill="d56494733e94"></div> <div class="author-info__body"> <p data-pill-inst="d56494733e94" data-doi="10.1145/contrib-81318496756">IBM Research, USA</p><a href="/profile/81318496756" class="btn blue stretched">View Profile</a></div> </div><span>, </span></li> <li class="loa__item"><a id="arnd_25504618027746245_Ctrl" href="javascript:void(0);" aria-controls="arnd_25504618027746245" aria-haspopup="true" class="author-name" title="Subhajit Datta"><span class="loa__author-info"> <div class="author-data"><span class="loa__author-name"><span><img class="author-picture" src="/pb-assets/icons/DOs/default-profile-1543932446943.svg" width="24" height="24" alt="" aria-hidden="true"/>Subhajit Datta</span></span></div><span class="loa_author_inst"> <p data-pill-inst="arnd_25504618027746245" data-doi="10.1145/contrib-81482643819">Singapore University of Technology and Design, Singapore</p></span></span></a><div id="arnd_25504618027746245" aria-labelledby="arnd_25504618027746245_Ctrl" class="author-info"> <div class="author-info__header" data-pill="d56494733e108"></div> <div class="author-info__body"> <p data-pill-inst="d56494733e108" data-doi="10.1145/contrib-81482643819">Singapore University of Technology and Design, Singapore</p><a href="/profile/81482643819" class="btn blue stretched">View Profile</a></div> </div> </li> <li><a href="#pill-authors__contentcon" data-slide-target="#pill-information" data-full-screen="false" data-ctrl-res="screen-xlg" data-tab="pill-authors__content" data-label="<i class='icon-Icon_Information'&gt;</i&gt; Information &amp; Authors" class="loa__link w-slide__btn tab-link slide-active">Authors Info &amp; Affiliations </a></li> </ul> </div> </div> </div></div></div></div><div class="section__separator"><h3 class="left-bordered-title">Other Metrics</h3><div class="section__content badges"><a href="#pill-bibliometrics__contentcon" data-slide-target="#pill-metric" data-tab="pill-bibliometrics__content" data-ctrl-res="screen-xlg" data-full-screen="false" data-label="&lt;i class=&quot;icon-metric &quot;&gt;&lt;/i&gt;Bibliometrics &amp; Citations" class="btn big stretched btn--inverse w-slide__btn tab-link pill-content">View Article Metrics</a></div></div></div></li></ul></div></div><div id="pill-metric"><div class="tab tab--flex"><ul role="tablist" class="rlist tab__nav"><li role="presentation" class="active"><a id="pill-bibliometrics__contentcon" href="#pill-bibliometrics__content" aria-controls="pill-bibliometrics__content" role="tab" data-toggle="tab" title="Bibliometrics" aria-selected="true" data-simple-tab-id="" tabindex="0">Bibliometrics</a></li><li role="presentation"><a id="pill-citations__contentcon" href="#pill-citations__content" data-ajaxurl="/action/ajaxShowCitedBy?widgetId=f69d88a8-b404-4aae-83a9-9acea4426d78&amp;ajax=true&amp;doi=10.1145%2F2568225.2568279&amp;pbContext=%3Btaxonomy%3Ataxonomy%3Aconference-collections%3Bwgroup%3Astring%3AACM+Publication+Websites%3BgroupTopic%3Atopic%3Aacm-pubtype%26gt%3Bproceeding%3Bctype%3Astring%3ABook+Content%3Barticle%3Aarticle%3Adoi%5C%3A10.1145%2F2568225.2568279%3Bissue%3Aissue%3Adoi%5C%3A10.1145%2F2568225%3Bpage%3Astring%3AArticle%2FChapter+View%3BsubPage%3Astring%3AAbstract%3Bcsubtype%3Astring%3AConference+Proceedings%3Bwebsite%3Awebsite%3Adl-site%3Btopic%3Atopic%3Aconference-collections%26gt%3Bicse%3Bjournal%3Ajournal%3Aacmconferences%3BpageGroup%3Astring%3APublication+Pages" data-component="pubAjaxContent" data-ajaxtarget="#pill-citations__content .citedBy" aria-controls="pill-citations__content" role="tab" data-toggle="tab" title="Citations" aria-selected="false" data-simple-tab-id="" tabindex="-1" class="loadAjax loadLazyAjax">Citations<span class="citation-count count-bubble">11</span></a></li></ul><ul class="rlist tab__content"><li id="pill-bibliometrics__content" aria-labelledby="pill-bibliometrics__contentcon" role="tabpanel" aria-hidden="false" tabindex="0" class="tab__pane active"><div class="pill-bibliometrics__content"><div class="section__separator"><h3 class="left-bordered-title">Article Metrics</h3><div class="section__content"><ul class="rlist--inline article-metrics"><li><div class="article-metric citation"><div class="metric-value"><span>11</span></div>Total Citations</div><a href="#pill-citations__contentcon" data-tab="pill-citations__content" data-slide-target="#pill-metric" data-full-screen="false" data-ctrl-res="screen-xlg" class="primary-blue-color w-slide__btn tab-link slide-active pill-content">View Citations</a></li><li><div class="article-metric download"><div class="metric-value"><span>453</span></div>Total Downloads</div></li></ul><ul class="rlist metrics__list"><li><span class="metric-name">Downloads (Last 12 months)</span><span class="metric-value">18</span></li><li><span class="metric-name">Downloads (Last 6 weeks)</span><span class="metric-value">3</span></li></ul></div></div><div class="section__separator"><h3 class="left-bordered-title">Other Metrics</h3><div class="section__content"><a href="#pill-authors__contentcon" data-slide-target="#pill-information" data-ctrl-res="screen-xlg" data-tab="pill-authors__content" data-full-screen="false" data-label="&lt;i class=&quot;icon-Icon_Information &quot;&gt;&lt;/i&gt;Information &amp; Authors" class="btn big stretched btn--inverse w-slide__btn tab-link pill-content">View Author Metrics</a></div></div></div></li><li id="pill-citations__content" aria-labelledby="pill-citations__contentcon" role="tabpanel" aria-hidden="true" class="tab__pane"><div class="pill-citations__content"><div class="section__separator"><h3 class="left-bordered-title">Cited By</h3><ol class="rlist references__list citedBy"></ol></div></div></li></ul></div></div><div id="pill-formats"><div class="pill-formats__content"><div class="section__separator"><h3 class="left-bordered-title">PDF Format</h3><div class="section__content"><p class="info--text">View or Download as a PDF file.</p><a href="/doi/pdf/10.1145/2568225.2568279" title="View or Download as a PDF file" class="btn big stretched red"><i aria-hidden="true" class="icon-pdf-file"></i>PDF</a></div></div><div class="section__separator"><h3 class="left-bordered-title">eReader</h3><div class="section__content"><p class="info--text">View online with eReader.</p><a href="/doi/epdf/10.1145/2568225.2568279" title="View online with eReader" class="btn big stretched blue no-margin-top w-slide__btn pill-content"><i aria-hidden="true" class="icon-eReader"></i>eReader</a></div></div><div class="section__separator de-format hidden"><h3 class="left-bordered-title">Digital Edition</h3><div class="section__content"><p class="info--text">View this article in digital edition.</p><a href="#" title="View Digital Edition" class="btn big stretched blue"><i aria-hidden="true" class="icon-open-book"></i>View Digital Edition</a></div></div></div></div><div id="pill-references"><div class="pill-references__content"></div></div><div id="pill-media"><div class="tab tab--flex"><ul role="tablist" class="rlist tab__nav"><li role="presentation" class="active"><a id="pill-fig__contentcon" href="#pill-fig__content" aria-controls="pill-fig__content" role="tab" data-toggle="tab" title="Figures" aria-selected="true" data-simple-tab-id="" tabindex="0">Figures</a></li><li role="presentation"><a id="pill-media__contentcon" href="#pill-media__content" aria-controls="pill-media__content" role="tab" data-toggle="tab" title="Other" aria-selected="false" data-simple-tab-id="" tabindex="-1">Other</a></li></ul><div class="pill-figures__content"><ul class="rlist tab__content"><li id="pill-fig__content" aria-labelledby="pill-fig__contentcon" role="tabpanel" aria-hidden="false" tabindex="0" class="tab__pane active"></li><li id="pill-media__content" aria-labelledby="pill-media__contentcon" role="tabpanel" aria-hidden="true" class="tab__pane"><ul class="rlist pill-media__content"></ul></li></ul></div></div></div><div id="pill-tables"><div class="pill-tables__content"></div></div><div id="pill-share"><div class="pill-share__content"><div class="section__separator"><h3 class="left-bordered-title">Share this Publication link</h3><div class="section__content copy__text-wrapper"><fieldset><p id="shareable-link__text" class="copy__text">https://dl.acm.org/doi/10.1145/2568225.2568279</p><button type="submit" class="btn big btn--inverse copy__btn"><i aria-hidden="true" class="icon-pages"></i>Copy Link</button></fieldset></div></div><div class="section__separator"><h3 class="left-bordered-title">Share on Social Media</h3><div class="section__content"><div class="visible-service-name">
+
+
+
+        
+        <!-- Go to www.addthis.com/dashboard to customize your tools --><script type="text/javascript" async="async" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=xa-4faab26f2cff13a7"></script><div class="share__block share__inline-links"><div class="pb-dropzone" data-pb-dropzone="shareBlock" title="shareBlock"></div><span class="sr-only">Share on</span><div class="rlist--inline addthis addthis_toolbox addthis_default_style addthis_32x32_style"><a role="link" class="addthis_button_twitter"></a><a role="link" class="addthis_button_linkedin"></a><a role="link" class="addthis_button_reddit"></a><a role="link" class="addthis_button_facebook"></a><a role="link" class="addthis_button_email"></a><div class="pb-dropzone" data-pb-dropzone="share-additional-links" title="share-additional-links"></div></div></div>
+</div></div></div></div></div></div></div><div class="col-sm-2 pill-section"><div data-stop-on=".more-issue__section" class="pill-icons"><ul class="rlist pill-list"><li title="Information &amp; Authors"><a href="javascript:void(0);" data-slide-target="#pill-information" data-ctrl-res="screen-xlg" data-full-screen="false" title="Information and Authors" data-label="&lt;i class=&quot;icon-Icon_Information&quot;&gt;&lt;/i&gt;Information &amp; Authors" class="w-slide__btn pill-information"><i aria-hidden="true" class="icon-Icon_Information"></i></a></li><li title="Bibliometrics &amp; Citations"><a href="javascript:void(0);" data-slide-target="#pill-metric" data-ctrl-res="screen-xlg" data-full-screen="false" data-label="&lt;i class=&quot;icon-metric &quot;&gt;&lt;/i&gt;Bibliometrics &amp; Citations" title="Bibliometrics and Citations" class="w-slide__btn pill-metric"><i aria-hidden="true" class="icon-metric"></i></a></li><li title="Get Access"><a href="javascript:void(0);" data-slide-target="#pill-access" data-ctrl-res="screen-xlg" data-full-screen="false" title="Get Access" data-label="&lt;i class=&quot;icon-get-access&quot;&gt;&lt;/i&gt;Get Access" class="w-slide__btn pill-access"><i class="icon-get-access"></i></a></li><li title="References"><a href="javascript:void(0);" data-slide-target="#pill-references" data-ctrl-res="screen-xlg" data-full-screen="false" title="References" data-label="&lt;i class=&quot;icon-Icon_Links-References&quot;&gt;&lt;/i&gt;References" class="w-slide__btn pill-references"><i aria-hidden="true" class="icon-Icon_Links-References"></i><span class="refNum count-bubble">0<span class="sr-only">References</span></span></a></li><li title="Media"><a href="javascript:void(0);" data-slide-target="#pill-media" data-ctrl-res="screen-xlg" data-full-screen="false" title="Media" data-label="&lt;i class=&quot;icon-Icon_Images&quot;&gt;&lt;/i&gt;Media" data-ajaxtarget="#pill-fig__content" data-component="pubAjaxContent" data-action="onResponse" data-ajaxurl="/action/ajaxShowFigures?widgetId=f69d88a8-b404-4aae-83a9-9acea4426d78&amp;ajax=true&amp;doi=10.1145%2F2568225.2568279&amp;pbContext=%3Btaxonomy%3Ataxonomy%3Aconference-collections%3Bwgroup%3Astring%3AACM+Publication+Websites%3BgroupTopic%3Atopic%3Aacm-pubtype%26gt%3Bproceeding%3Bctype%3Astring%3ABook+Content%3Barticle%3Aarticle%3Adoi%5C%3A10.1145%2F2568225.2568279%3Bissue%3Aissue%3Adoi%5C%3A10.1145%2F2568225%3Bpage%3Astring%3AArticle%2FChapter+View%3BsubPage%3Astring%3AAbstract%3Bcsubtype%3Astring%3AConference+Proceedings%3Bwebsite%3Awebsite%3Adl-site%3Btopic%3Atopic%3Aconference-collections%26gt%3Bicse%3Bjournal%3Ajournal%3Aacmconferences%3BpageGroup%3Astring%3APublication+Pages" class="w-slide__btn loadAjax-auto pill-media"><i aria-hidden="true" class="icon-Icon_Images"></i></a></li><li title="Tables"><a href="javascript:void(0);" data-slide-target="#pill-tables" data-ctrl-res="screen-xlg" title="Tables" data-full-screen="false" data-label="&lt;i class=&quot;icon-table&quot;&gt;&lt;/i&gt;Tables" data-ajaxtarget=".pill-tables__content" data-component="pubAjaxContent" data-action="onResponse" data-ajaxurl="/action/ajaxShowTables?widgetId=f69d88a8-b404-4aae-83a9-9acea4426d78&amp;ajax=true&amp;doi=10.1145%2F2568225.2568279&amp;pbContext=%3Btaxonomy%3Ataxonomy%3Aconference-collections%3Bwgroup%3Astring%3AACM+Publication+Websites%3BgroupTopic%3Atopic%3Aacm-pubtype%26gt%3Bproceeding%3Bctype%3Astring%3ABook+Content%3Barticle%3Aarticle%3Adoi%5C%3A10.1145%2F2568225.2568279%3Bissue%3Aissue%3Adoi%5C%3A10.1145%2F2568225%3Bpage%3Astring%3AArticle%2FChapter+View%3BsubPage%3Astring%3AAbstract%3Bcsubtype%3Astring%3AConference+Proceedings%3Bwebsite%3Awebsite%3Adl-site%3Btopic%3Atopic%3Aconference-collections%26gt%3Bicse%3Bjournal%3Ajournal%3Aacmconferences%3BpageGroup%3Astring%3APublication+Pages" class="w-slide__btn loadAjax-auto pill-tables"><i aria-hidden="true" class="icon-table"></i></a></li><li title="Share"><a href="javascript:void(0);" data-slide-target="#pill-share" data-ctrl-res="screen-xlg" data-full-screen="false" title="Share" data-label="&lt;i class=&quot;icon-Icon_Share&quot;&gt;&lt;/i&gt;Share" class="w-slide__btn pill-share pill-content"><i aria-hidden="true" class="icon-Icon_Share"></i></a></li></ul></div></div></div></article><div id="figure-viewer" data-ux3-wrapper="figure-viewer" data-ux3-transformed-by="figureInit" data-ux3-role="parent" role="dialog" class="figure-viewer"><div class="figure-viewer__reg__top clearfix"><div class="figure-viewer__top__right"><a title="Zoom In" href="#" class="figure-viewer__ctrl figure-viewer__ctrl__zoom zoomSetting"><div aria-hidden="true" class="icon-zoom-in zoom-in"></div></a><a title="Zoom Out" href="#" class="figure-viewer__ctrl figure-viewer__label__zoom zoomSetting"><div aria-hidden="true" class="icon-zoom-out zoom-out"></div></a><a title="Open Caption" href="#" class="figure-viewer__ctrl figure-viewer__ctrl__caption"><i aria-hidden="true" class="icon-Icon_Information"></i></a><a href="#" data-ux3-role="controller" role="button" title="close" class="figure-viewer__ctrl figure-viewer__ctrl__close"><i aria-hidden="true" class="icon-cancel-bold"><span class="sr-only">Close Figure Viewer</span></i></a></div><h4 class="figure-viewer__top__center"></h4><div class="figure-viewer__top__left"><a href="#" role="button" title="Browse All" class="figure-viewer__ctrl__browse"><i aria-hidden="true" class="icon-grid-3"><span class="sr-only">Browse All</span></i></a><a href="#" role="button" title="Return" class="figure-viewer__ctrl__return is-hidden"><i aria-hidden="true" class="icon-cancel-bold"><span class="sr-only">Return</span></i></a><span class="zoomSlider js__zoom-slider ui-slider zoomSetting"><label for="figure-viewer__zoom-range" class="sr-only">Change zoom level</label><input type="range" id="figure-viewer__zoom-range" class="zoom-range"/></span></div></div><div class="figure-viewer__reg__center"><div class="figure-viewer__cent__left"><div class="figure-viewer__hold__fig"><div class="holder"></div></div><div class="figure-viewer__hold__list"><h3 class="figure-viewer__browse-title"></h3><div class="flex-grid"></div></div></div><div class="figure-viewer__cent__right"><div class="figure-viewer__caption-header"><h3 class="figure-viewer__caption-label">Caption</h3><a title="Close Caption" href="#" class="pull-right figure-viewer__close-caption figure-viewer__ctrl__caption"><i aria-hidden="true" class="icon-cancel-bold"></i></a></div><div class="figure-viewer__caption-wrapper"><div class="figure-viewer__title"><span class="figure-viewer__title__text"></span></div><div class="figure-viewer__hold__figcap"></div></div></div></div></div>
+
+        </div>
+    
+
+
+
+
+        
+        <div class="separated-block--dashed align-center"><a href="/doi/proceedings/10.1145/2568225" style="text-transform: capitalize;" class="btn btn--inverse big">View Table of Contents</a></div>
+
+
+
+
+        
+        <div class="ux-modal-container"><div id="exportCitation" class="modal"><div class="modal__dialog"><div class="modal__header"><button type="button" data-dismiss="modal" class="close"><i aria-hidden="true" class="icon-close_thin"></i></button><h2>Export Citations</h2></div><div class="modal__body"><div class="exportCitation__tabs"><div class="tab"><ul role="tablist" class="rlist tab__nav"></ul></div><div class="csl-wrapper copy__text-wrapper"><form action="/action/exportCiteProcCitation" method="post" target="_blank"><input type="hidden" name="content" value=""/><input type="hidden" name="dois" value=""/><input type="hidden" name="format" value=""/><fieldset class="input-group"><label for="citation-format" class="visibility-hidden">Select Citation format</label><select id="citation-format" data-csl-doi="10.1145/2568225.2568279"><option value="bibtex" data-format="bibTex">BibTeX</option><option value="endNote" data-format="endNote">EndNote</option><option value="acm" data-format="text">ACM Ref</option></select><span class="select-arrow"><i class="icon-bottom-arrow"></i></span></fieldset><ul class="rlist tab__content"><li id="selectedTab" aria-labelledby="selected" role="tabpanel" class="tab__pane active"><div class="csl-wrapper copy__text-wrapper"><pre class="copy__text csl-response"></pre><div id="export-warning"></div><div class="pull-right"><ul class="rlist--inline separator"><li><a href="javascript:void(0)" role="menuitem" title="Download citation" class="download__btn disabled"><label class="visibility-hidden">Download citation</label><i aria-hidden="true" class="icon-Icon_Download"></i></a></li><li><a href="javascript:void(0)" role="menuitem" title="Copy citation" class="copy__btn disabled"><label class="visibility-hidden">Copy citation</label><i aria-hidden="true" class="icon-pages"></i><input type="hidden" id="doisLimitNumber" value="-1"/></a></li></ul></div></div></li><li id="allResultstab" aria-labelledby="allResults" role="tabpanel" class="tab__pane"><div class="all-results-tab-container"><div class="desc-text"><div class="bold">Preview is not available.</div>By clicking download,<b class="ml-1">a new tab</b> will open to start the export process. The process may take<b class="ml-1">a few minutes</b> but once it finishes a file will be downloaded on your browser so<b class="ml-1">please do not close the new tab.</b></div><a href="#" href-data="/action/searchCitationExport?query=DOI%3D10.1145%252F2568225.2568279%26target%3Dindex-terms" title="Download" target="_blank" class="btn transparent downloadBtn"><i aria-hidden="true" class="icon-Icon_Download"></i>Download<i aria-hidden="true" class="icon-export"></i></a></div></li></ul></form></div></div></div></div></div></div>
+</main>
+
+
+
+
+        
+        <footer class="footer">
+
+
+
+        
+        <div class="back-to-top clearfix">
+    <i class="icon-arrow_u_p"></i>
+</div>
+
+
+
+
+        
+        <div class="footer-top">
+
+
+
+
+
+
+
+
+
+        <div data-widget-def="ux3-layout-widget" data-widget-id="81a18a14-d709-41fd-9bb6-25a7fc1e13df" class="container">
+        
+
+
+
+        
+        <div class="row sitemap">
+
+
+
+        
+        <div class="col-sm-2 col-xs-6 sitemap__column">
+
+
+
+
+
+
+
+
+
+        <div data-widget-def="UX3HTMLWidget" data-widget-id="5b00ef28-f63b-4518-bd06-da82035f86ca" class="sitemap__data">
+        
+
+
+
+        
+        <div class="bold" style="margin-bottom: 18px;">Categories</div>
+<ul class="rlist">
+    <li><a href="/journals" title="Browse a listing of ACM’s Journals">Journals</a></li>
+    <li><a href="/magazines" title="Browse ACM's Magazines">Magazines</a></li>
+    <li><a href="/acmbooks" title="Browse new Releases of ACM Books">Books</a></li>
+    <li><a href="/proceedings" title="Browse the ACM Proceedings">Proceedings</a></li>
+    <li><a href="/sigs" title="Browse the Special Interest Groups">SIGs</a></li>
+    <li><a href="/conferences" title="Browse the Conferences">Conferences</a></li>
+    <li><a href="/collections" title="Browse the Special Collections">Collections</a></li>
+    <li><a href="/people" title="Discover ACM’s community of authors">People</a></li>
+</ul>
+
+        </div>
+    
+</div><div class="col-sm-4 col-xs-6 sitemap__column">
+
+
+
+
+
+
+
+
+
+        <div data-widget-def="UX3HTMLWidget" data-widget-id="731f98d3-e996-490d-a071-e9b966b32e2d" class="sitemap__data">
+        
+
+
+
+        
+        <div class="bold" style="margin-bottom: 18px;">About</div>
+<ul class="rlist">
+    <li><a href="/about">About ACM Digital Library</a></li>
+    <li><a href="/about/access" title="Accessing the DL">Subscription Information</a></li>
+    <li><a href="https://www.acm.org/publications/authors/information-for-authors" title="Information for Authors">Author Guidelines</a></li>
+    <li><a href="/about/access" title="Accessing the DL">Using ACM Digital Library</a></li>
+    <li><a href="/about/content#sec2">All Holdings within the ACM Digital Library</a></li>
+    <li><a href="/ccs" title="Classify publications using ACM's Computing Classification System">ACM Computing Classification System</a></li>
+</ul>
+
+        </div>
+    
+</div><div class="col-sm-3 col-xs-6 sitemap__column">
+
+
+
+
+
+
+
+
+
+        <div data-widget-def="UX3HTMLWidget" data-widget-id="d4ed040d-22e8-481c-a7ef-0cac141f5246" class="sitemap__data">
+        
+
+
+
+        
+        <div class="bold" style="margin-bottom: 18px;">Join</div>
+<ul class="rlist">
+    <li><a href="https://www.acm.org/membership/join">Join ACM</a></li>
+    <li><a href="https://www.acm.org/special-interest-groups/join">Join SIGs</a></li>
+    <li><a href="https://www.acm.org/publications/subscribe">Subscribe to Publications</a></li>
+    <li><a href="https://libraries.acm.org/">Institutions and Libraries</a></li>
+</ul>
+
+        </div>
+    
+</div><div class="col-sm-3 col-xs-6 sitemap__column">
+
+
+
+
+
+
+
+
+
+        <div data-widget-def="UX3HTMLWidget" data-widget-id="4a649bf1-cf3f-472c-b764-dc3ab0cf4310" class="sitemap__data">
+        
+
+
+
+        
+        <b>Connect</b>
+<ul class="rlist social-media__connect">
+    <li><a href="/cdn-cgi/l/email-protection#52363e7f2637333f123a237c33313f7c3d2035" title="email dl team"><i class="icon-Icon_mail" aria-hidden="true"></i><span>Contact</span></a></li>
+    <li><a href="https://www.facebook.com/AssociationForComputingMachinery/" title="ACM on facebook"><i class="icon-facebook" aria-hidden="true"></i><span>Facebook</span></a></li>
+    <li><a href="https://twitter.com/acmdl" title="Tweets from ACM DL"><i class="icon-twitter" aria-hidden="true"></i><span>Twitter</span></a></li>
+    <li><a href="https://www.linkedin.com/company/association-for-computing-machinery/" title="acm  linkedin"><i class="icon-linkedin" aria-hidden="true"></i><span>Linkedin</span></a></li>
+    <!--li><a href="#" title="icon-Rss"><i class="icon-Rss" aria-hidden="true"></i><span>RSS</span></a></li-->
+</ul>
+
+        </div>
+    
+</div>
+</div>
+
+        </div>
+    
+</div>
+
+
+
+
+
+
+
+
+
+
+        <div data-widget-def="ux3-layout-widget" data-widget-id="6e6da9b7-371e-4ea0-827e-8de5915b8cd5" class="footer-bottom text-onDark">
+        
+
+
+
+        
+        <div class="container"><div class="row"><div class="col-md-8 col-sm-6 footer__copyright-wrapper">
+
+
+
+        
+        <div class="copyright">The ACM Digital Library is published by the Association for Computing Machinery. Copyright © 2021 ACM, Inc.</div>
+<ul class="rlist--inline">
+    <li><a href="https://libraries.acm.org/digital-library/policies#anchor3">Terms of Usage</a></li>
+    <li><a href="https://www.acm.org/about-acm/privacy-policy">Privacy Policy</a></li>
+    <li><a href="https://www.acm.org/code-of-ethics">Code of Ethics</a></li>
+</ul>
+</div><div class="col-md-4 col-sm-6 footer__logos-wrapper">
+
+
+
+        
+        <div class="logos">
+
+
+
+
+
+
+
+
+
+        <div data-widget-def="ux3-general-image" data-widget-id="42d543b3-ff9d-4f92-bf03-6d1fa00da8c6" class="footer__logo1">
+        
+
+
+
+        
+        <a href="/" title="ACM Digital Library home"><img id="" alt="ACM Digital Library home" src="/specs/products/acm/releasedAssets/images/acm-logo-dl.png"/></a>
+
+        </div>
+    
+
+
+
+
+
+
+
+
+
+
+        <div data-widget-def="ux3-general-image" data-widget-id="5a0bc5df-cd95-408f-8ae5-8b1f40746519" class="footer__logo2">
+        
+
+
+
+        
+        <a href="https://www.acm.org" title="ACM home"><img id="" alt="ACM home" src="/specs/products/acm/releasedAssets/images/acm-logo-3.png"/></a>
+
+        </div>
+    
+</div>
+</div></div></div>
+
+        </div>
+    
+
+
+
+
+        
+        <!-- Mopinion Pastea.se  start --><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script type="text/javascript">(function(){var id="7zt4vp6rxi2bbpxuy9yzabob4fy2enwmumr";var js=document.createElement("script");var pbBtn=document.querySelector('.admin-bar-disclosure');if(!window.PB){js.setAttribute("src","//deploy.mopinion.com/js/pastease.js");document.getElementsByTagName("head")[0].appendChild(js);var t=setInterval(function(){try{new Pastease.load(id);clearInterval(t)}catch(e){}},50)}})();
+    </script><!-- Mopinion Pastea.se end -->
+</footer>
+
+
+
+
+        
+        <script type="text/javascript">
+(function(h,o,t,j,a,r){
+    h.hj=h.hj||function()
+    
+    {(h.hj.q=h.hj.q||[]).push(arguments)}
+    ;
+    h._hjSettings={hjid:1290436,hjsv:6};
+    a=o.getElementsByTagName('head')[0];
+    r=o.createElement('script');r.async=1;
+    r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+    a.appendChild(r);
+})(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+</script>
+
+
+
+
+        
+        <script type="text/javascript">
+    (function (w, d) {
+    var b = d.getElementsByTagName('body')[0];
+    var s = d.createElement("script");
+    var v = !("IntersectionObserver" in w) ? "8.17.0" : "10.19.0";
+    s.async = true; // This includes the script as async. See the "recipes" section for more information about async loading of LazyLoad.
+    s.src = "https://cdn.jsdelivr.net/npm/vanilla-lazyload@" + v + "/dist/lazyload.min.js";
+    w.lazyLoadOptions = {elements_selector: ".lazy", "class_loaded": "image-lazy-loaded"};
+    b.appendChild(s);
+}(window, document));
+</script>
+
+
+
+
+        
+        
+
+
+
+
+        
+        <div class="cookiePolicy-popup"><div class="cookiePolicy-popup__header"><i aria-hidden="true" class="icon-cookie"></i><h5 class="cookiePolicy-popup__title">About Cookies On This Site</h5></div><div class="cookiePolicy-popup__body clearfix"><p><p>We use cookies to ensure that we give you the best experience on our website.</p>
+<p><a href="https://www.acm.org/privacy-policy" class="blue link">Learn more</a></p></p><a href="#" class="btn blue cookiePolicy-popup__close pull-right">Got it!</a></div></div>
+
+
+
+
+        
+        
+
+
+
+        
+    
+
+        </div>
+    </div>
+
+
+	
+
+    <script>if (typeof define !== 'undefined' && define.amd)
+    define.amd = false</script><script src="/products/acm/releasedAssets/js/main.bundle-3e6db5cb29f1c489a375.js"></script><script>(function (w, d) {
+    var b = d.getElementsByTagName('body')[0];
+    var s = d.createElement("script");
+    var v = !("IntersectionObserver" in w) ? "8.17.0" : "10.19.0";
+    s.async = true; // This includes the script as async. See the "recipes" section for more information about async loading of LazyLoad.
+    s.src = "https://cdn.jsdelivr.net/npm/vanilla-lazyload@" + v + "/dist/lazyload.min.js";
+    w.lazyLoadOptions = {elements_selector: ".lazy", "class_loaded": "image-lazy-loaded"};
+    b.appendChild(s);
+}(window, document));</script>
+
+<script type="text/javascript" src="/wro/kgia~product.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"rayId":"6767fd0cf8180256","token":"b7f168b3cd354a55a4dd51b513830799","version":"2021.7.0","si":10}'></script>
+</body>
+</html>
